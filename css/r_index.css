@@ -1,0 +1,226 @@
+.r_login {
+  width: 7.5rem;
+  height: 13.34rem;
+  background: url("../img/r_01.png") no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.r_login .r_tc {
+  width: 0.97rem;
+  height: 0.53rem;
+  margin-left: 0.26rem;
+  margin-top: 0.17rem;
+}
+
+.r_login .r_tc img {
+  width: 0.97rem;
+  height: 0.53rem;
+}
+
+.r_login .r_bigbox {
+  margin: 0.72rem auto 0;
+  width: 7.05rem;
+  height: 11.21rem;
+  background: url("../img/r_02.png") no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.r_login .r_bigbox .r_gat {
+  width: 1.92rem;
+  height: 1.52rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -0.83rem;
+  margin: 0 auto;
+}
+
+.r_login .r_bigbox .r_gat img {
+  width: 1.92rem;
+  height: 1.52rem;
+  opacity: 0.9;
+}
+
+.r_login .r_bigbox .r_basic {
+  padding-top: 0.8rem;
+  width: 2.85rem;
+  height: 1.5rem;
+  margin: auto;
+}
+
+.r_login .r_bigbox .r_basic img {
+  width: 2.85rem;
+  height: 0.7rem;
+}
+
+.r_name {
+  width: 6.25rem;
+  height: 7.92rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.r_name .r_cuo {
+  margin-left: 0.3rem;
+  margin-top: 0.4rem;
+  width: 100%;
+  height: 0.31rem;
+}
+
+.r_name .r_cuo img {
+  width: 0.31rem;
+  height: 0.31rem;
+  float: left;
+}
+
+.r_name .r_cuo p {
+  float: left;
+  margin-left: 0.15rem;
+  line-height: 0.31rem;
+  font-size: 0.24rem;
+}
+
+.r_name li {
+  background-size: contain;
+  overflow: hidden;
+  position: relative;
+}
+
+.r_name li input {
+  z-index: 99;
+  position: absolute;
+  top: 0.55rem;
+  left: 0.85rem;
+  width: 70%;
+  height: 0.26rem;
+  background: none;
+  line-height: 0.26rem;
+  font-size: 0.24rem;
+  color: #abadb0;
+}
+
+.r_name li input:focus {
+  color: #606264;
+}
+
+.r_name li .r_cor {
+  width: 0.36rem;
+  height: 0.33rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0.32rem;
+  margin: auto 0;
+}
+
+.r_name li .r_cor img {
+  width: 0.36rem;
+  height: 0.33rem;
+  position: absolute;
+}
+
+.r_name .r_user {
+  background: url("../img/r_08.png") no-repeat;
+  margin-top: 0.2rem;
+  width: 6.25rem;
+  height: 1.25rem;
+  background-size: contain;
+}
+
+.r_name .r_phone {
+  background: url("../img/r_06.png") no-repeat;
+  margin-top: 0.41rem;
+  width: 6.25rem;
+  height: 1.25rem;
+  background-size: contain;
+}
+
+.r_name .r_phone .r_ph {
+  z-index: 999;
+  width: 2.54rem;
+  height: 1.06rem;
+  position: absolute;
+  top: 0.15rem;
+  right: 0.65rem;
+  background: url("../img/r_16.png");
+  overflow: hidden;
+  background-size: contain;
+}
+
+.r_name .r_phone .r_ph p {
+  font-size: 0.3rem;
+  color: #fff;
+  margin-left: 0.625rem;
+  margin-top: 0.276rem;
+}
+
+.r_name .r_pass {
+  background: url("../img/r_09.png") no-repeat;
+  margin-top: 0.7rem;
+  width: 6.25rem;
+  height: 1.25rem;
+  background-size: contain;
+}
+
+.r_name .r_pass .r_show {
+  z-index: 999;
+  width: 1.49rem;
+  height: 0.76rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0.8rem;
+  margin: auto 0;
+}
+
+.r_name .r_jindu {
+  width: 3.41rem;
+  height: 0.07rem;
+  margin-left: 0.45rem;
+  margin-top: 0.1rem;
+  position: relative;
+}
+
+.r_name .r_jindu img {
+  width: 3.41rem;
+  height: 0.07rem;
+  position: absolute;
+}
+
+.r_name .r_confirm {
+  margin-top: 0.24rem;
+  width: 6.25rem;
+  height: 1.25rem;
+  background-size: contain;
+}
+
+.r_name .r_confirm .r_coll {
+  width: 6.25rem;
+  height: 1.25rem;
+  position: absolute;
+}
+
+.r_name .r_confirm .r_coll img {
+  position: absolute;
+  width: 6.25rem;
+  height: 1.25rem;
+}
+
+.r_name .r_confirm .r_coll .r_collbai {
+  display: none;
+}
+
+.r_bc {
+  width: 2.55rem;
+  height: 0.75rem;
+  margin: 0 auto;
+}
+
+.r_bc img {
+  width: 2.55rem;
+  height: 0.75rem;
+}
+
+/*# sourceMappingURL=index.css.map */

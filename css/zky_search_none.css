@@ -1,0 +1,234 @@
+.zky_container {
+  width: 7.5rem;
+  background: #3d444e; }
+
+.zky_header {
+  width: 100%;
+  height: 1.34rem;
+  background: url("../img/zky_ser_bg.png") no-repeat center center;
+  background-size: 7.5rem 1.34rem;
+  position: relative;
+  margin-bottom: 0.2rem; }
+  .zky_header .left {
+    width: 0.35rem;
+    height: 0.38rem;
+    background: url("../img/zky_sousuo.png") no-repeat center center;
+    background-size: 0.35rem 0.38rem;
+    position: absolute;
+    left: 0.64rem;
+    top: 0.55rem; }
+  .zky_header input {
+    position: absolute;
+    left: 1.05rem;
+    top: 0.55rem;
+    background: transparent;
+    color: #fff;
+    font-size: 0.36rem;
+    line-height: 0.38rem; }
+  .zky_header .right {
+    width: 0.36rem;
+    height: 0.34rem;
+    position: absolute;
+    top: 0.55rem;
+    right: 1.4rem;
+    background: url("../img/zky_cha.png") no-repeat center center;
+    background-size: 0.36rem 0.34rem; }
+  .zky_header span {
+    position: absolute;
+    top: 0.55rem;
+    right: 0.24rem;
+    color: #d2d6dd;
+    font-size: 0.3rem; }
+
+.zky_result {
+  width: 7.02rem;
+  height: 0.98rem;
+  background: #f33c53;
+  margin: 0 auto;
+  border-radius: 0.1rem;
+  padding-left: 0.18rem; }
+  .zky_result .img {
+    width: 0.96rem;
+    height: 100%;
+    background: url("../img/zky_cry.png") no-repeat center center;
+    background-size: 0.96rem 0.98rem;
+    float: left; }
+  .zky_result .tit {
+    width: 5.88rem;
+    height: 100%;
+    float: right;
+    padding: 0.2rem 0 0 0.2rem; }
+    .zky_result .tit span {
+      color: #feb1b1;
+      font-size: 0.24rem;
+      font-style: normal;
+      line-height: 0.24rem; }
+    .zky_result .tit p {
+      color: #fff;
+      font-size: 0.3rem;
+      font-style: normal;
+      line-height: 0.3rem; }
+
+.zky_hot {
+  height: 1.5rem;
+  width: 100%;
+  padding: 0 0.24rem; }
+  .zky_hot .hot {
+    width: 100%;
+    height: 100%;
+    padding: 0 0.12rem 0 0.22rem;
+    background: url("../img/zky_tit1.png") no-repeat left center;
+    background-size: 3.8rem 0.8rem;
+    position: relative; }
+    .zky_hot .hot .star {
+      position: absolute;
+      top: 0.66rem;
+      right: 0; }
+      .zky_hot .hot .star li {
+        width: 0.3rem;
+        height: 0.3rem;
+        background: url("../img/zky_star.png") no-repeat center center;
+        background-size: 0.3rem 0.29rem;
+        float: left;
+        margin-right: 0.06rem; }
+
+.zky_list {
+  width: 100%;
+  height: 3.8rem;
+  position: relative; }
+  .zky_list .bg {
+    width: 100%;
+    height: 2.05rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #f33c53; }
+  .zky_list .lists {
+    padding: 0.26rem 0 0.24rem 0.46rem; }
+    .zky_list .lists li {
+      width: 2.14rem;
+      height: 3.34rem;
+      float: left;
+      position: relative;
+      z-index: 1;
+      margin-right: 0.2rem; }
+      .zky_list .lists li .card {
+        width: 100%;
+        height: 2.59rem;
+        background: #e2e2e3;
+        border-radius: 0.1rem; }
+      .zky_list .lists li h3 {
+        color: #fff;
+        font-size: 0.3rem;
+        line-height: 0.3rem;
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem; }
+      .zky_list .lists li p {
+        color: #fbcccc;
+        font-size: 0.22rem;
+        line-height: 0.22rem; }
+      .zky_list .lists li .pic {
+        width: 100%;
+        height: 2.59rem;
+        background: #e2e2e3;
+        border-radius: 0.1rem;
+        border: 1px solid #e4e4e4;
+        position: absolute;
+        left: -0.14rem;
+        top: -0.16rem;
+        background: url("../img/zky_picture.png") no-repeat center center;
+        background-size: 2.58rem 2.68rem; }
+
+.zky_mv {
+  height: 1.8rem;
+  width: 100%;
+  padding: 0 0.24rem; }
+  .zky_mv .hot {
+    width: 100%;
+    height: 100%;
+    padding: 0 0.12rem 0 0.22rem;
+    background: url("../img/zky_tit2.png") no-repeat left center;
+    background-size: 2.81rem 0.74rem;
+    position: relative; }
+    .zky_mv .hot .star {
+      position: absolute;
+      top: 0.66rem;
+      right: 0; }
+      .zky_mv .hot .star li {
+        width: 0.3rem;
+        height: 0.3rem;
+        background: url("../img/zky_star.png") no-repeat center center;
+        background-size: 0.3rem 0.29rem;
+        float: left;
+        margin-right: 0.06rem; }
+
+.zky_video {
+  width: 6.8rem;
+  height: 3.68rem;
+  background: #fff;
+  border-radius: 0.1rem;
+  margin: 0 auto;
+  padding: 0.3rem 0.2rem 0 0.96rem;
+  position: relative;
+  overflow: visible; }
+  .zky_video .title {
+    width: 100%;
+    height: 0.36rem;
+    margin-bottom: 0.1rem; }
+    .zky_video .title .left {
+      width: 4.3rem;
+      height: 100%;
+      color: #22272d;
+      font-size: 0.36rem;
+      font-weight: bold;
+      float: left; }
+    .zky_video .title .honor {
+      float: right;
+      margin-top: 0.16rem; }
+      .zky_video .title .honor li {
+        width: 0.2rem;
+        height: 0.2rem;
+        background: url("../img/zky_icon.png") no-repeat center center;
+        background-size: 0.2rem 0.2rem;
+        float: left;
+        margin-right: 0.04rem; }
+  .zky_video p {
+    font-size: 0.1rem;
+    color: #474f59;
+    margin-bottom: 0.2rem;
+    line-height: 1em;
+    letter-spacing: 0.01em; }
+  .zky_video .video {
+    width: 4.18rem;
+    height: 2.02rem;
+    border-radius: 0.1rem;
+    background: #292e36;
+    overflow: hidden;
+    position: relative; }
+    .zky_video .video img {
+      width: 4.70rem;
+      height: 3.18rem; }
+    .zky_video .video .icon {
+      width: 0.41rem;
+      height: 0.42rem;
+      background: url("../img/zky_video.png") no-repeat center center;
+      background-size: 0.41rem 0.42rem;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto auto; }
+  .zky_video .circle {
+    width: 0.84rem;
+    height: 0.84rem;
+    border-radius: 50%;
+    border: 3px solid #3d444e;
+    position: absolute;
+    top: -0.2rem;
+    left: -0.15rem;
+    z-index: 1;
+    background: url("../img/zky_1_pic.png") no-repeat center center;
+    background-size: 2.6rem 1.43rem; }
+
+/*# sourceMappingURL=zky_search_none.css.map */

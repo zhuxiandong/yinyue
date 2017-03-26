@@ -1,0 +1,253 @@
+.xun .danqu, .xun .prev, .xun .zanting, .xun .next, .xun .lie {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+
+.zt_header .Q_nav .Q_navbox .Q_title {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+body {
+  background: #292e35;
+  overflow: hidden; }
+
+.zt_imgxt {
+  width: 94%;
+  margin: 0 3%; }
+
+.zt_header {
+  width: 100%;
+  height: 2.10rem;
+  position: relative; }
+  .zt_header .Q_nav {
+    width: 100%;
+    height: 0.88rem; }
+    .zt_header .Q_nav .Q_navbox {
+      width: 100%;
+      height: 0.88rem;
+      padding: 0 0.24rem;
+      position: relative; }
+      .zt_header .Q_nav .Q_navbox .zt_fh {
+        float: left;
+        margin-top: 0.18rem; }
+        .zt_header .Q_nav .Q_navbox .zt_fh img {
+          width: 1.02rem; }
+      .zt_header .Q_nav .Q_navbox .Q_title {
+        z-index: -1; }
+        .zt_header .Q_nav .Q_navbox .Q_title h1 {
+          text-align: center;
+          font-size: 0.36rem;
+          line-height: 0.88rem;
+          color: #fff; }
+      .zt_header .Q_nav .Q_navbox .Q_dian {
+        width: 0.39rem;
+        height: 0.07rem;
+        float: right;
+        margin-top: 0.1rem; }
+        .zt_header .Q_nav .Q_navbox .Q_dian a {
+          display: block; }
+          .zt_header .Q_nav .Q_navbox .Q_dian a img {
+            width: 100%; }
+  .zt_header .zt_xm {
+    width: 33%;
+    height: 0.7rem;
+    position: absolute;
+    top: 0.75rem;
+    left: 33%; }
+    .zt_header .zt_xm .zt_g1 {
+      width: 0.76rem;
+      height: 0.02rem;
+      background: #393e45;
+      float: left;
+      margin-top: 0.38rem; }
+    .zt_header .zt_xm .zt_name {
+      font-size: 0.28rem;
+      color: #fff;
+      float: left;
+      text-align: center;
+      line-height: 0.7rem; }
+    .zt_header .zt_xm .zt_g2 {
+      width: 0.76rem;
+      height: 0.02rem;
+      background: #393e45;
+      float: right;
+      margin-top: 0.38rem; }
+  .zt_header .zt_fy {
+    width: 60%;
+    height: 0.58rem;
+    margin: 0 auto;
+    position: absolute;
+    left: 20%;
+    bottom: 0; }
+    .zt_header .zt_fy .zt_san {
+      width: 1.38rem;
+      margin: 0 0.05rem;
+      float: left; }
+      .zt_header .zt_fy .zt_san img {
+        width: 1.38rem; }
+
+.zt_img {
+  width: 100%;
+  height: 3.7rem;
+  margin: 0.6rem 0;
+  position: relative; }
+  .zt_img .zt_ban {
+    width: 3.6rem;
+    height: 3.60rem;
+    position: absolute;
+    right: 1.25rem;
+    top: 0; }
+    .zt_img .zt_ban img {
+      width: 3.6rem; }
+  .zt_img .zt_ban2 {
+    width: 3.65rem;
+    height: 3.65rem;
+    border: 0.02rem solid #fff;
+    border-radius: 0.05rem;
+    position: absolute;
+    left: 1.25rem;
+    top: 0; }
+    .zt_img .zt_ban2 img {
+      width: 3.65rem; }
+
+.zt_gc {
+  margin: 0 auto; }
+  .zt_gc .zt_gc1 {
+    text-align: center;
+    padding: 0.15rem 0;
+    font-size: 0.3rem;
+    color: #6a6d72; }
+    .zt_gc .zt_gc1 .zt_gc2 {
+      color: #fff; }
+  .zt_gc .zt_fyd {
+    width: 0.62rem;
+    height: 0.12rem;
+    margin: 0.2rem auto; }
+    .zt_gc .zt_fyd .zt_zd {
+      float: left;
+      width: 0.1rem;
+      height: 0.1rem;
+      background: #999;
+      border-radius: 50%;
+      margin-top: 0.01rem; }
+    .zt_gc .zt_fyd .zt_yd {
+      float: right;
+      width: 0.1rem;
+      height: 0.1rem;
+      background: #999;
+      border-radius: 50%;
+      margin-top: 0.01rem; }
+    .zt_gc .zt_fyd .zt_zjd {
+      width: 0.12rem;
+      height: 0.12rem;
+      background: #fff;
+      border-radius: 50%;
+      float: left;
+      margin-left: 0.15rem; }
+
+.zt_gn {
+  width: 100%;
+  padding: 0.4rem 0; }
+  .zt_gn div {
+    width: 0.4rem;
+    height: 0.32rem;
+    float: left; }
+    .zt_gn div img {
+      width: 0.4rem; }
+  .zt_gn .zt_gn1 {
+    margin-left: 1.4rem; }
+  .zt_gn .zt_gn2 {
+    margin-left: 1.8rem; }
+  .zt_gn .zt_gn3 {
+    float: right;
+    margin-right: 1.4rem; }
+
+.jindu {
+  width: 100%;
+  height: 0.24rem;
+  margin-top: 0.5rem;
+  position: relative; }
+  .jindu .time {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: 0.24rem; }
+  .jindu .tiao {
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    top: 0.15rem;
+    left: 10%;
+    background-color: #474c53; }
+  .jindu .redtiao {
+    width: 20%;
+    height: 2px;
+    position: absolute;
+    top: 0.15rem;
+    left: 10%;
+    background-color: #f3354d; }
+  .jindu .tu {
+    width: 0.21rem;
+    height: 0.21rem;
+    position: absolute;
+    top: 0.1rem;
+    left: 29%; }
+    .jindu .tu img {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+  .jindu .timeall {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    font-size: 0.24rem; }
+
+.xun {
+  width: 100%;
+  height: 2rem;
+  position: relative; }
+  .xun li {
+    float: left; }
+  .xun .danqu {
+    width: 0.43rem;
+    height: 0.32rem;
+    position: absolute;
+    left: 3%; }
+    .xun .danqu img {
+      width: 100%; }
+  .xun .prev {
+    width: 0.83rem;
+    height: 0.83rem;
+    position: absolute;
+    left: 20%; }
+    .xun .prev img {
+      width: 100%; }
+  .xun .zanting {
+    width: 1.16rem;
+    height: 1.17rem;
+    position: absolute;
+    left: 40%; }
+    .xun .zanting img {
+      width: 100%; }
+  .xun .next {
+    width: 0.83rem;
+    height: 0.83rem;
+    position: absolute;
+    right: 20%; }
+    .xun .next img {
+      width: 100%; }
+  .xun .lie {
+    width: 0.43rem;
+    height: 0.32rem;
+    position: absolute;
+    right: 3%; }
+    .xun .lie img {
+      width: 100%; }

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>music</title>
+    <script src="<?php echo JS_PATH?>myjs/jquery.js"></script>
+    <script src="<?php echo JS_PATH?>myjs/music.js"></script>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        cursor: pointer;
+    }
+    #play-list {
+        width:500px;
+        border: 1px solid red;
+        padding: 40px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    #play-list li {
+        width:100%;
+        height:30px;
+        padding: 5px;
+        border-bottom: 1px solid blanchedalmond;
+    }
+    #play-list .active{
+        color: #31c27c;
+    }
+    #play-list li span{
+        margin-right: 10px;
+    }
+    #play-list li .delete,#play-list li .play{
+        display: none;
+    }
+    #play-list li:hover .delete{
+        display: inline-block;
+    }
+    #play-list li:hover .play{
+        display: inline-block;
+    }
+    #add{
+        font-size: 36px;
+        margin: 0 auto;
+        width:500px;
+    }
+    .control::after{
+        content: '';
+        clear: both;
+    }
+    .button{
+        border:1px solid #000;
+        padding: 10px;
+        font-size: 30px;
+        float: left;
+        margin: 5px;
+    }
+</style>
+<body>
+<ul class="control">
+    <?php foreach($album as $v): ?>
+    <li class="button add"><?php echo $v['album_id']?></li>
+    <?php endforeach; ?>
+</ul>
+
+
+
+
+
+
+    <audio src="" controls></audio>
+    <div id="add">+</div>
+    <ul id="play-list">
+        <li class="active">
+            <span>01</span>
+            <span>歌3</span>
+            <span>周杰伦</span>
+            <span>3:05</span>
+            <span class="delete">×</span>
+            <span class="play"><</span>
+        </li>
+    </ul>
+    <div class="control">
+        <div id="pre" class="button">上一首</div>
+        <div id="play" class="button">播放</div>
+        <div id="next" class="button">下一首</div>
+    </div>
+    <style>
+        body{
+            position: relative;
+            padding: 30px;
+        }
+       #play-op,#vol-op{
+           height:12px;
+           border: 1px solid red;
+           margin-top: 100px;
+       }
+        #play-op-inner,#vol-op-inner{
+            height:4px;
+            background: blue;
+            margin-top: 3px;
+            width:0;
+            position: relative;
+        }
+        #vol-op-inner{
+            width:100%;
+        }
+        #point,#vol-op-point{
+            position: absolute;
+            right:-5px;
+            top:-3px;
+            width:10px;
+            height:10px;
+            border-radius: 50%;
+            background: pink;
+        }
+    </style>
+    <div id="play-op">
+        <div id="play-op-inner">
+            <div id="point"></div>
+        </div>
+    </div>
+    <div class="controls">
+        <div id="vol-icon" class="bottom">喇叭</div>
+    </div>
+    <div id="vol-op">
+        <div id="vol-op-inner">
+            <div id="vol-op-point"></div>
+        </div>
+    </div>
+</body>
+</html>

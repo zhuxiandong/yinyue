@@ -1,0 +1,392 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: #292a2b; }
+
+.bgbox {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+.bgbox .qqbox {
+    display: block;
+    width: 78px;
+    height: 21px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background: url(../../image/img/qq.png) no-repeat;
+    background-size: cover;
+    opacity: 0.3; }
+.bgbox .qqbox:hover {
+    opacity: 1; }
+.bgbox .loginbox {
+    width: 114px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px; }
+.bgbox .loginbox a {
+    display: block;
+    margin-right: 10px;
+    color: #fff;
+    float: left;
+    opacity: 0.3; }
+.bgbox .loginbox a:hover {
+    opacity: 1; }
+.bgbox .bodybox {
+    width: 1160px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 50px 0; }
+.bgbox .bodybox .tabbox {
+    width: 100%;
+    min-height: 500px; }
+.bgbox .bodybox .tabbox .tableftbox {
+    width: 718px;
+    height: 100%;
+    float: left; }
+.bgbox .bodybox .tabbox .tableftbox .leftnav {
+    width: 100%;
+    height: 36px; }
+.bgbox .bodybox .tabbox .tableftbox .leftnav a {
+    display: block;
+    width: 120px;
+    height: 36px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    float: left; }
+.bgbox .bodybox .tabbox .tableftbox .leftnav a i {
+    display: block;
+    margin-top: 11px;
+    margin-left: 25px;
+    margin-right: 7px;
+    float: left; }
+.bgbox .bodybox .tabbox .tableftbox .leftnav a h3 {
+    display: block;
+    color: rgba(255, 255, 255, 0.6);
+    float: left;
+    line-height: 36px;
+    font-weight: normal; }
+.bgbox .bodybox .tabbox .tableftbox .leftnav a:hover {
+    border: 1px solid white; }
+.bgbox .bodybox .tabbox .tableftbox .leftnav a:hover h3 {
+    color: white; }
+.bgbox .bodybox .tabbox .tableftbox .leftnav a:nth-child(1) i {
+    width: 18px;
+    height: 14px;
+    background: url(../../image/img/jingling.png) -60px 0 no-repeat; }
+.bgbox .bodybox .tabbox .tableftbox .leftnav a:nth-child(1):hover i {
+    background: url(../../image/img/jingling.png) -60px -20px no-repeat; }
+.bgbox .bodybox .tabbox .tableftbox .leftnav a:nth-child(2) i {
+    width: 18px;
+    height: 18px;
+    background: url(../../image/img/jingling.png) -20px 0 no-repeat; }
+.bgbox .bodybox .tabbox .tableftbox .leftnav a:nth-child(2):hover i {
+    background: url(../../image/img/jingling.png) -20px -20px no-repeat; }
+.bgbox .bodybox .tabbox .tableftbox .leftnav a:nth-child(3) i {
+    width: 20px;
+    height: 18px;
+    background: url(../../image/img/jingling.png) -40px -220px no-repeat; }
+.bgbox .bodybox .tabbox .tableftbox .leftnav a:nth-child(3):hover i {
+    background: url(../../image/img/jingling.png) -40px -240px no-repeat; }
+.bgbox .bodybox .tabbox .tableftbox .leftnav a:nth-child(4) i {
+    width: 20px;
+    height: 16px;
+    background: url(../../image/img/jingling.png) -100px 0 no-repeat; }
+.bgbox .bodybox .tabbox .tableftbox .leftnav a:nth-child(4):hover i {
+    background: url(../../image/img/jingling.png) -100px -20px no-repeat; }
+.bgbox .bodybox .tabbox .tableftbox .leftnav a:nth-child(5) i {
+    width: 20px;
+    height: 16px;
+    background: url(../../image/img/jingling.png) -40px -300px no-repeat;
+    opacity: 0.3; }
+.bgbox .bodybox .tabbox .tableftbox .leftnav a:nth-child(5):hover i {
+    opacity: 1;
+    background: url(../../image/img/jingling.png) -40px -300px no-repeat; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon {
+    width: 100%;
+    min-height: 430px;
+    margin-top: 20px; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .lists {
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 18px;
+    box-sizing: border-box; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .lists .inputbox {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    float: left;
+    margin-right: 45px; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .lists .inputbox .input {
+    display: block;
+    width: 15px;
+    height: 10px;
+    background: url(../../image/img/jingling.png) -60px -81px; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .lists .sing {
+    width: 373px;
+    color: rgba(255, 255, 255, 0.6);
+    float: left; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .lists .sing .bofang {
+    width: 37px;
+    height: 37px;
+    background: url(../../image/img/icon-menu.png);
+    float: right;
+    margin-top: -10px;
+    margin-right: 10px;
+    display: none;
+    cursor: pointer;}
+.bgbox .bodybox .tabbox .tableftbox .leftcon .lists .sing .add {
+    width: 37px;
+    height: 37px;
+    background: url(../../image/img/icon-menu.png) 0 -80px;
+    float: right;
+    margin-top: -10px;
+    margin-right: 10px;
+    display: none;
+    cursor: pointer;}
+.bgbox .bodybox .tabbox .tableftbox .leftcon .lists .sing .share {
+    width: 37px;
+    height: 37px;
+    background: url(../../image/img/icon-menu.png) 0 -40px;
+    float: right;
+    margin-top: -10px;
+    margin-right: 20px;
+    display: none;
+    cursor: pointer;}
+.bgbox .bodybox .tabbox .tableftbox .leftcon .lists .singer {
+    width: 163px;
+    float: left;
+    color: rgba(255, 255, 255, 0.6); }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .lists .time {
+    width: 50px;
+    color: rgba(255, 255, 255, 0.6);
+    float: left;
+    display: block; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .lists .delete {
+    width: 37px;
+    height: 37px;
+    background: url(../../image/img/icon-menu.png) 0 -160px;
+    float: left;
+    margin-top: -10px;
+    display: none;
+    cursor: pointer;}
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list {
+    border-top: 0; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(1):hover .sing .share {
+    display: block; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(1):hover .sing .add {
+    display: block; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(1):hover .sing .bofang {
+    display: block; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(1):hover .time {
+    display: none; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(1):hover .delete {
+    display: block; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(2):hover .sing .share {
+    display: block; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(2):hover .sing .add {
+    display: block; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(2):hover .sing .bofang {
+    display: block; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(2):hover .time {
+    display: none; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(2):hover .delete {
+    display: block; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(3):hover .sing .share {
+    display: block; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(3):hover .sing .add {
+    display: block; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(3):hover .sing .bofang {
+    display: block; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(3):hover .time {
+    display: none; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(3):hover .delete {
+    display: block; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(4):hover .sing .share {
+    display: block; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(4):hover .sing .add {
+    display: block; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(4):hover .sing .bofang {
+    display: block; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(4):hover .time {
+    display: none; }
+.bgbox .bodybox .tabbox .tableftbox .leftcon .list:nth-child(4):hover .delete {
+    display: block; }
+.bgbox .bodybox .tabbox .tabrightbox {
+    width: 201px;
+    height: 180px;
+    background: url(../../image/img/r1.png);
+    background-size: cover;
+    float: right; }
+.bgbox .bodybox .tabbox .tabrightbox .tabrightbg {
+    width: 201px;
+    height: 180px;
+    background: url(../../image/img/player.png);
+    background-size: cover;
+    float: right;
+    overflow: hidden; }
+.bgbox .bodybox .jindutiao {
+    width: 100%;
+    height: 47px; }
+.bgbox .bodybox .jindutiao .pre {
+    width: 20px;
+    height: 20px;
+    background: url(../../image/img/b1.png) 0 -30px no-repeat;
+    margin-right: 40px;
+    float: left;
+    margin-top: 5px;
+    cursor: pointer; }
+.bgbox .bodybox .jindutiao .stop {
+    width: 20px;
+    height: 30px;
+    background: url(../../image/img/b1.png) 0 0 no-repeat;
+    margin-right: 40px;
+    float: left;
+    opacity: 0.8;
+    cursor: pointer; }
+.bgbox .bodybox .jindutiao .stop:hover {
+    opacity: 1; }
+.bgbox .bodybox .jindutiao .next {
+    width: 20px;
+    height: 21px;
+    background: url(../../image/img/b1.png) 0 -50px no-repeat;
+    margin-right: 40px;
+    float: left;
+    margin-top: 5px;
+    opacity: 0.8;
+    cursor: pointer; }
+.bgbox .bodybox .jindutiao .next:hover {
+    opacity: 1; }
+.bgbox .bodybox .jindutiao .jindu {
+    width: 538px;
+    height: 18px;
+    position: relative;
+    float: left;
+    padding: 7px 0;
+    box-sizing: border-box;
+    opacity: 0.8;
+    cursor: pointer; }
+.bgbox .bodybox .jindutiao .jindu:hover {
+    opacity: 1; }
+.bgbox .bodybox .jindutiao .jindu .yuan {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.8;
+    cursor: pointer; }
+.bgbox .bodybox .jindutiao .jindu .yuan:hover {
+    opacity: 1; }
+.bgbox .bodybox .jindutiao .jindu .line {
+    width: 537px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    left: 5px;
+    top: 11px;
+    opacity: 0.8;
+    cursor: pointer; }
+.bgbox .bodybox .jindutiao .jindu .line:hover {
+    opacity: 1; }
+.bgbox .bodybox .jindutiao .shunxu {
+    width: 26px;
+    height: 25px;
+    background: url(../../image/img/b1.png) 0 -235px no-repeat;
+    margin-right: 30px;
+    float: left;
+    margin-left: 40px;
+    opacity: 0.8;
+    cursor: pointer; }
+.bgbox .bodybox .jindutiao .shunxu:hover {
+    opacity: 1; }
+.bgbox .bodybox .jindutiao .like {
+    width: 23px;
+    height: 23px;
+    background: url(../../image/img/b1.png) 0 -95px no-repeat;
+    margin-right: 30px;
+    float: left;
+    opacity: 0.8;
+    cursor: pointer; }
+.bgbox .bodybox .jindutiao .like:hover {
+    opacity: 1; }
+.bgbox .bodybox .jindutiao .xiazai {
+    width: 25px;
+    height: 24px;
+    background: url(../../image/img/b1.png) 0 -120px no-repeat;
+    margin-right: 30px;
+    float: left;
+    opacity: 0.8;
+    cursor: pointer; }
+.bgbox .bodybox .jindutiao .xiazai:hover {
+    opacity: 1; }
+.bgbox .bodybox .jindutiao .chunjin {
+    width: 75px;
+    height: 28px;
+    background: url(../../image/img/b1.png) 0 -280px no-repeat;
+    margin-right: 30px;
+    float: left;
+    opacity: 0.8;
+    cursor: pointer; }
+.bgbox .bodybox .jindutiao .chunjin:hover {
+    opacity: 1; }
+.bgbox .bodybox .jindutiao .voice {
+    width: 27px;
+    height: 23px;
+    background: url(../../image/img/b1.png) 0 -141px no-repeat;
+    margin-right: 20px;
+    float: left;
+    opacity: 0.8;
+    cursor: pointer; }
+.bgbox .bodybox .jindutiao .voice:hover {
+    opacity: 1; }
+.bgbox .bodybox .jindutiao .voicejindu {
+    width: 80px;
+    height: 18px;
+    position: relative;
+    float: left;
+    padding: 7px 0;
+    box-sizing: border-box;
+    opacity: 0.8;
+    cursor: pointer; }
+.bgbox .bodybox .jindutiao .voicejindu:hover {
+    opacity: 1; }
+.bgbox .bodybox .jindutiao .voicejindu .yuan {
+    position: absolute;
+    left: 50px;
+    top: 7px;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: 0.8;
+    cursor: pointer; }
+.bgbox .bodybox .jindutiao .voicejindu .yuan:hover {
+    opacity: 1; }
+.bgbox .bodybox .jindutiao .voicejindu .line {
+    width: 80px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    left: 5px;
+    top: 11px;
+    opacity: 0.8;
+    cursor: pointer; }
+.bgbox .bodybox .jindutiao .voicejindu .line:hover {
+    opacity: 1; }
+.bgbox .bodybox .jindutiao .voicejindu .light {
+    width: 50px;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: 5px;
+    top: 11px;
+    opacity: 0.8;
+    cursor: pointer; }
+.bgbox .bodybox .jindutiao .voicejindu .light:hover {
+    opacity: 1; }

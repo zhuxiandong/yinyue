@@ -1,0 +1,201 @@
+.Q_nav .Q_navbox .Q_left, .xun .danqu, .xun .prev, .xun .zanting, .xun .next, .xun .lie {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+
+.Q_nav .Q_navbox .Q_title {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+body {
+  background: url("../images/q-01.png") no-repeat;
+  background-size: cover; }
+
+.Q_nav {
+  width: 100%;
+  height: 0.88rem; }
+  .Q_nav .Q_navbox {
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.24rem;
+    position: relative; }
+    .Q_nav .Q_navbox .Q_left {
+      display: block;
+      width: 1.02rem;
+      height: 0.56rem;
+      background: url(../images/q-15.png);
+      background-size: cover; }
+    .Q_nav .Q_navbox .Q_title {
+      z-index: -1; }
+      .Q_nav .Q_navbox .Q_title h1 {
+        text-align: center;
+        font-size: 0.36rem;
+        line-height: 0.88rem;
+        color: #fff; }
+    .Q_nav .Q_navbox .Q_dian {
+      width: 0.39rem;
+      height: 0.07rem;
+      float: right;
+      margin-top: 0.1rem; }
+      .Q_nav .Q_navbox .Q_dian a {
+        display: block; }
+        .Q_nav .Q_navbox .Q_dian a img {
+          width: 100%; }
+
+.Q_content {
+  width: 100%;
+  padding: 0 0.24rem; }
+  .Q_content .Q_xinxi {
+    width: 100%;
+    border-top: 1px solid #32373e; }
+    .Q_content .Q_xinxi .Q_singer {
+      width: 100%;
+      height: 0.9rem;
+      margin-top: 0.19rem; }
+      .Q_content .Q_xinxi .Q_singer .Q_photo {
+        width: 0.75rem;
+        height: 0.75rem;
+        float: left; }
+        .Q_content .Q_xinxi .Q_singer .Q_photo img {
+          width: 100%; }
+      .Q_content .Q_xinxi .Q_singer .Q_name {
+        width: 87%;
+        float: left;
+        height: 100%;
+        margin-left: 2%;
+        border-bottom: 1px solid #32373e; }
+        .Q_content .Q_xinxi .Q_singer .Q_name .Q_ming {
+          float: left;
+          font-size: 0.36rem;
+          line-height: 0.75rem;
+          color: #fff; }
+        .Q_content .Q_xinxi .Q_singer .Q_name .Q_lianjie {
+          width: 0.14rem;
+          height: 0.26rem;
+          float: right;
+          margin-top: 0.15rem; }
+          .Q_content .Q_xinxi .Q_singer .Q_name .Q_lianjie img {
+            width: 100%; }
+
+.Q_btnbox {
+  width: 1.05rem;
+  height: 0.15rem;
+  margin: 0 auto;
+  margin-top: 1.2rem; }
+  .Q_btnbox li {
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+    float: left;
+    margin-left: 0.2rem;
+    background-color: #8c8d81; }
+  .Q_btnbox .Q_btn {
+    width: 0.15rem;
+    height: 0.15rem;
+    background-color: #fff;
+    margin-top: -0.02rem; }
+
+.Q_xiazai {
+  width: 100%;
+  height: 0.34rem;
+  margin-top: 0.5rem; }
+  .Q_xiazai li {
+    width: 33.33%;
+    float: left; }
+    .Q_xiazai li a {
+      width: 0.34rem;
+      display: block;
+      margin: 0 auto; }
+      .Q_xiazai li a img {
+        width: 100%; }
+
+.jindu {
+  width: 100%;
+  height: 0.24rem;
+  margin-top: 0.5rem;
+  position: relative; }
+  .jindu .time {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: 0.24rem; }
+  .jindu .tiao {
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    top: 0.15rem;
+    left: 10%;
+    background-color: #474c53; }
+  .jindu .redtiao {
+    width: 20%;
+    height: 2px;
+    position: absolute;
+    top: 0.15rem;
+    left: 10%;
+    background-color: #f3354d; }
+  .jindu .tu {
+    width: 0.21rem;
+    height: 0.21rem;
+    position: absolute;
+    top: 0.1rem;
+    left: 29%; }
+    .jindu .tu img {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+  .jindu .timeall {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    font-size: 0.24rem; }
+
+.xun {
+  width: 100%;
+  height: 2rem;
+  margin-top: 0.5rem;
+  position: relative; }
+  .xun li {
+    float: left; }
+  .xun .danqu {
+    width: 0.43rem;
+    height: 0.32rem;
+    position: absolute;
+    left: 3%; }
+    .xun .danqu img {
+      width: 100%; }
+  .xun .prev {
+    width: 0.83rem;
+    height: 0.83rem;
+    position: absolute;
+    left: 20%; }
+    .xun .prev img {
+      width: 100%; }
+  .xun .zanting {
+    width: 1.16rem;
+    height: 1.17rem;
+    position: absolute;
+    left: 40%; }
+    .xun .zanting img {
+      width: 100%; }
+  .xun .next {
+    width: 0.83rem;
+    height: 0.83rem;
+    position: absolute;
+    right: 20%; }
+    .xun .next img {
+      width: 100%; }
+  .xun .lie {
+    width: 0.43rem;
+    height: 0.32rem;
+    position: absolute;
+    right: 3%; }
+    .xun .lie img {
+      width: 100%; }

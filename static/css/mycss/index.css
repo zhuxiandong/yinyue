@@ -1,0 +1,287 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  width: 100%;
+  height: 100%;
+  background: url(../../image/img/bg.jpg) center center; }
+
+.bgbox {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden; }
+  .bgbox .bannerbox {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto; }
+    .bgbox .bannerbox .bannertop {
+      width: 490px;
+      height: 128px;
+      padding-top: 80px;
+      text-align: center;
+      margin: 0 auto;
+      position: relative; }
+      .bgbox .bannerbox .bannertop h1 {
+        height: 69px;
+        margin: 0 auto;
+        color: #fff;
+        font-size: 48px;
+        font-weight: 400; }
+      .bgbox .bannerbox .bannertop .left {
+        width: 72px;
+        height: 1px;
+        background: #fff;
+        position: absolute;
+        left: 0;
+        top: 104px;
+        opacity: 0.1; }
+      .bgbox .bannerbox .bannertop .right {
+        width: 72px;
+        height: 1px;
+        background: #fff;
+        position: absolute;
+        right: 0;
+        top: 104px;
+        opacity: 0.1; }
+    .bgbox .bannerbox .bannertab {
+      margin-top: 43px;
+      width: 100%;
+      height: 50px;
+      position: relative; }
+      .bgbox .bannerbox .bannertab ul {
+        width: 480px;
+        height: 50px;
+        margin: 0 auto; }
+        .bgbox .bannerbox .bannertab ul li {
+          width: 20%;
+          height: 100%;
+          text-align: center;
+          line-height: 1.5em;
+          float: left; }
+          .bgbox .bannerbox .bannertab ul li a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: #fff;
+            opacity: 0.5;
+            font-size: 16px; }
+            .bgbox .bannerbox .bannertab ul li a:hover {
+              opacity: 1; }
+        .bgbox .bannerbox .bannertab ul .active a {
+          opacity: 1; }
+      .bgbox .bannerbox .bannertab .allbox {
+        width: 43px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto; }
+        .bgbox .bannerbox .bannertab .allbox a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          color: #fff;
+          font-size: 16px; }
+          .bgbox .bannerbox .bannertab .allbox a i {
+            float: right;
+            display: block;
+            width: 7px;
+            height: 12px;
+            background: url(../../image/img/jingling.png);
+            margin-top: 3px; }
+          .bgbox .bannerbox .bannertab .allbox a:hover {
+            color: #31c27c; }
+          .bgbox .bannerbox .bannertab .allbox a:hover i {
+            background: url(../../image/img/jingling.png) -120px -60px; }
+    .bgbox .bannerbox .lunbobox {
+      width: 100%;
+      height: 415px; }
+      .bgbox .bannerbox .lunbobox .lunboul {
+        display: none;
+        width: 100%;
+        height: 100%;
+        float: left; }
+        .bgbox .bannerbox .lunbobox .lunboul li {
+          width: 25%;
+          heigth: 100%;
+          cursor: pointer;
+          background: rgba(0, 0, 0, 0.8);
+          float: left; }
+          .bgbox .bannerbox .lunbobox .lunboul li:hover {
+            background: #31c27c; }
+          .bgbox .bannerbox .lunbobox .lunboul li .tu {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            height: 300px;
+            margin-bottom: 32px; }
+            .bgbox .bannerbox .lunbobox .lunboul li .tu img {
+              transition: all 0.5s ease; }
+            .bgbox .bannerbox .lunbobox .lunboul li .tu a {
+              display: block;
+              width: 50px;
+              height: 50px;
+              background: url(../../image/img/kaishi.png);
+              background-size: cover;
+              position: absolute;
+              left: 0;
+              right: 0;
+              top: 0;
+              bottom: 0;
+              margin: auto;
+              transition: all 0.5s ease;
+              opacity: 0;
+              z-index: 2; }
+            .bgbox .bannerbox .lunbobox .lunboul li .tu div {
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background: rgba(0, 0, 0, 0.1);
+              display: none; }
+            .bgbox .bannerbox .lunbobox .lunboul li .tu:hover div {
+              display: block; }
+            .bgbox .bannerbox .lunbobox .lunboul li .tu:hover img {
+              transform: scale(1.1, 1.1); }
+            .bgbox .bannerbox .lunbobox .lunboul li .tu:hover a {
+              opacity: 1;
+              transform: scale(1.5, 1.5); }
+          .bgbox .bannerbox .lunbobox .lunboul li .font {
+            width: 100%;
+            height: 75px; }
+            .bgbox .bannerbox .lunbobox .lunboul li .font h3 {
+              color: #fff;
+              font-weight: 400;
+              text-align: center;
+              line-height: 18px;
+              font-size: 16px; }
+              .bgbox .bannerbox .lunbobox .lunboul li .font h3 div {
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                opacity: 0;
+                transition: all 0.5s ease;
+                background: url(../../image/img/jingling.png) -180px -100px no-repeat; }
+            .bgbox .bannerbox .lunbobox .lunboul li .font h6 {
+              color: #999;
+              line-height: 18px;
+              font-size: 16px;
+              text-align: center;
+              margin-top: 10px;
+              width: 270px; }
+          .bgbox .bannerbox .lunbobox .lunboul li:hover h3 div {
+            opacity: 1; }
+      .bgbox .bannerbox .lunbobox .activeul {
+        z-index: 200;
+        display: block; }
+      .bgbox .bannerbox .lunbobox .r-i {
+        display: block;
+        animation: right-in 1s ease; }
+      .bgbox .bannerbox .lunbobox .r-o {
+        display: block;
+        animation: right-out 1s ease; }
+      .bgbox .bannerbox .lunbobox .l-i {
+        display: block;
+        animation: left-in 1s ease; }
+      .bgbox .bannerbox .lunbobox .l-o {
+        display: block;
+        animation: left-out 1s ease; }
+    .bgbox .bannerbox .btnbox {
+      width: 1200px;
+      height: 22px;
+      padding: 10px 0; }
+      .bgbox .bannerbox .btnbox ul {
+        width: 120px;
+        height: 100%;
+        margin: 10px auto; }
+        .bgbox .bannerbox .btnbox ul li {
+          width: 30px;
+          height: 1px;
+          background: rgba(255, 255, 255, 0.3);
+          margin: 0 5px;
+          float: left; }
+        .bgbox .bannerbox .btnbox ul .active {
+          background: #fff; }
+  .bgbox .leftbtnbox {
+    width: 70px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0; }
+    .bgbox .leftbtnbox .leftbtn {
+      transition: all 0.5s ease;
+      width: 70px;
+      overflow: hidden;
+      height: 108px;
+      background: rgba(255, 255, 255, 0.3);
+      position: absolute;
+      left: -70px;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      cursor: pointer; }
+      .bgbox .leftbtnbox .leftbtn div {
+        width: 10px;
+        height: 17px;
+        margin: 45px auto;
+        background: url(../../image/img/jingling.png) -180px 0 no-repeat; }
+    .bgbox .leftbtnbox:hover .leftbtn {
+      width: 78px;
+      background: #31c27c; }
+  .bgbox .rightbtnbox {
+    width: 70px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0; }
+    .bgbox .rightbtnbox .rightbtn {
+      transition: all 0.5s ease;
+      width: 70px;
+      overflow: hidden;
+      height: 108px;
+      background: rgba(255, 255, 255, 0.3);
+      position: absolute;
+      right: -70px;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      cursor: pointer; }
+      .bgbox .rightbtnbox .rightbtn div {
+        width: 10px;
+        height: 17px;
+        margin: 45px auto;
+        background: url(../../image/img/jingling.png) -160px 0 no-repeat; }
+    .bgbox .rightbtnbox:hover .rightbtn {
+      width: 78px;
+      background: #31c27c; }
+  .bgbox:hover .leftbtnbox .leftbtn {
+    left: 0; }
+  .bgbox:hover .rightbtnbox .rightbtn {
+    right: 0; }
+
+@keyframes right-in {
+  0% {
+    transform: translate3d(100%, 0, 0); }
+  100% {
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes right-out {
+  0% {
+    transform: translate3d(0, 0, 0); }
+  100% {
+    transform: translate3d(-100%, 0, 0); } }
+
+@keyframes left-in {
+  0% {
+    transform: translate3d(-100%, 0, 0); }
+  100% {
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes left-out {
+  0% {
+    transform: translate3d(0, 0, 0); }
+  100% {
+    transform: translate3d(100%, 0, 0); } }

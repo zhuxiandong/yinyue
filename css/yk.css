@@ -1,0 +1,533 @@
+.nav .logo, .tab a:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.font-20 {
+  font-size: 12px; }
+  @media (min-width: 320px) {
+    .font-20 {
+      font-size: 12px; } }
+  @media (min-width: 375px) {
+    .font-20 {
+      font-size: 14px; } }
+  @media (min-width: 750px) {
+    .font-20 {
+      font-size: 20px; } }
+
+.font-28 {
+  font-size: 12px; }
+  @media (min-width: 320px) {
+    .font-28 {
+      font-size: 12px; } }
+  @media (min-width: 360px) {
+    .font-28 {
+      font-size: 14px; } }
+  @media (min-width: 375px) {
+    .font-28 {
+      font-size: 16px; } }
+  @media (min-width: 412px) {
+    .font-28 {
+      font-size: 16px; } }
+  @media (min-width: 750px) {
+    .font-28 {
+      font-size: 28px; } }
+
+.font-30 {
+  font-size: 12px; }
+  @media (min-width: 320px) {
+    .font-30 {
+      font-size: 14px; } }
+  @media (min-width: 360px) {
+    .font-30 {
+      font-size: 16px; } }
+  @media (min-width: 375px) {
+    .font-30 {
+      font-size: 18px; } }
+  @media (min-width: 412px) {
+    .font-30 {
+      font-size: 20px; } }
+  @media (min-width: 750px) {
+    .font-30 {
+      font-size: 30px; } }
+
+.font-26 {
+  font-size: 12px; }
+  @media (min-width: 320px) {
+    .font-26 {
+      font-size: 12px; } }
+  @media (min-width: 360px) {
+    .font-26 {
+      font-size: 14px; } }
+  @media (min-width: 375px) {
+    .font-26 {
+      font-size: 16px; } }
+  @media (min-width: 412px) {
+    .font-26 {
+      font-size: 16px; } }
+  @media (min-width: 750px) {
+    .font-26 {
+      font-size: 26px; } }
+
+.font-24 {
+  font-size: 12px; }
+  @media (min-width: 320px) {
+    .font-24 {
+      font-size: 12px; } }
+  @media (min-width: 360px) {
+    .font-24 {
+      font-size: 14px; } }
+  @media (min-width: 375px) {
+    .font-24 {
+      font-size: 16px; } }
+  @media (min-width: 412px) {
+    .font-24 {
+      font-size: 16px; } }
+  @media (min-width: 750px) {
+    .font-24 {
+      font-size: 24px; } }
+
+.font-44 {
+  font-size: 16px; }
+  @media (min-width: 320px) {
+    .font-44 {
+      font-size: 16px; } }
+  @media (min-width: 360px) {
+    .font-44 {
+      font-size: 18px; } }
+  @media (min-width: 375px) {
+    .font-44 {
+      font-size: 20px; } }
+  @media (min-width: 412px) {
+    .font-44 {
+      font-size: 24px; } }
+  @media (min-width: 750px) {
+    .font-44 {
+      font-size: 44px; } }
+
+.container {
+  padding: 0 0.24rem; }
+
+/*头部*/
+.header {
+  height: 2.22rem;
+  background: url(../img/s_bg.jpg);
+  padding-top: 0.15rem; }
+
+.nav {
+  height: 0.9rem;
+  padding-top: 0.15rem;
+  position: relative; }
+  .nav a {
+    display: block;
+    height: 0.6rem; }
+    .nav a img {
+      height: 100%; }
+  .nav .btn_center {
+    float: left; }
+  .nav .btn_search {
+    float: right; }
+  .nav .logo {
+    height: 0.56rem; }
+  .nav span {
+    display: block;
+    width: 0.42rem;
+    height: 0.22rem;
+    background: #f33c53;
+    position: absolute;
+    left: 0.32rem;
+    top: 0.08rem;
+    line-height: 0.22rem;
+    border-radius: 0.11rem;
+    text-align: center;
+    color: #f9f9f9;
+    text-shadow: 2px 4px 5px #ec2d40;
+    overflow: hidden; }
+
+.tab {
+  height: 0.72rem;
+  width: 4.54rem;
+  margin: 0 auto;
+  margin-top: 0.07rem;
+  background-image: url("../img/s_tab_bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 0.08rem 0.06rem; }
+  .tab a {
+    display: block;
+    height: 100%;
+    line-height: 0.56rem;
+    float: left;
+    color: #86898e;
+    position: relative; }
+    .tab a:after {
+      display: block;
+      position: absolute;
+      content: '';
+      width: 0.04rem;
+      height: 0.04rem;
+      background: #616871;
+      border-radius: 0.02rem; }
+    .tab a span {
+      display: block;
+      width: 0.8rem;
+      margin: 0 auto;
+      text-align: justify; }
+      .tab a span:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+        height: 0; }
+  .tab .active {
+    background-image: url("../img/s_a_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff; }
+    .tab .active:after {
+      display: none; }
+.lt_music .cover, .lt_music .lt_cate a p {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.lt_header .lt_top .logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+body {
+  background: #f7f7f7; }
+
+.lt_header {
+  width: 100%;
+  height: 2.7rem;
+  background: url("../img/lt_rot.png");
+  margin: 0 auto;
+  padding: 0 0.22rem;
+  box-sizing: border-box;
+  padding-top: 0.39rem; }
+  .lt_header .lt_top {
+    width: 100%;
+    height: 0.74rem;
+    position: relative; }
+    .lt_header .lt_top .left {
+      display: block;
+      width: 0.75rem;
+      height: 100%;
+      background: url("../img/lt_search.png") no-repeat left bottom;
+      background-size: contain;
+      float: left; }
+    .lt_header .lt_top .logo {
+      width: 0.82rem;
+      height: 100%;
+      background: url("../img/lt_logo.png") no-repeat center center;
+      background-size: contain; }
+    .lt_header .lt_top .right {
+      display: block;
+      width: 1.06rem;
+      height: 100%;
+      background: url("../img/lt_search.png") no-repeat center center;
+      background-size: contain;
+      float: right; }
+  .lt_header .lt_bottom {
+    width: 4.6rem;
+    height: 0.71rem;
+    margin: 0.36rem auto;
+    background: url("../img/lt_card.png") no-repeat center center;
+    background-size: contain;
+    border-radius: 0.355rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0.06rem; }
+    .lt_header .lt_bottom .contant {
+      width: 100%;
+      height: 100%;
+      background: pink; }
+
+.lt_music {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-bottom: 0.45rem; }
+  .lt_music .cover {
+    width: 100%;
+    height: 0.63rem;
+    background: url("../img/lt_cover.png") no-repeat center bottom;
+    background-size: cover;
+    position: absolute;
+    top: 0; }
+  .lt_music .lt_cate {
+    padding: 0 0.22rem;
+    overflow: hidden; }
+    .lt_music .lt_cate a {
+      height: 1.9rem;
+      border-radius: 0.04rem;
+      position: relative; }
+      .lt_music .lt_cate a p {
+        text-align: center;
+        font-size: 0.23rem;
+        position: absolute;
+        bottom: 0.19rem; }
+    .lt_music .lt_cate a:nth-child(1) {
+      background: url("../img/lt_green.png") no-repeat left center;
+      background-size: contain;
+      color: #509596; }
+    .lt_music .lt_cate a:nth-child(2) {
+      background: url("../img/lt_blue.png") no-repeat left center;
+      background-size: contain;
+      color: #597599; }
+    .lt_music .lt_cate a:nth-child(3) {
+      background: url("../img/lt_puple.png") no-repeat left center;
+      background-size: contain;
+      color: #ea7ffe; }
+    .lt_music .lt_cate a:nth-child(4) {
+      background: url("../img/lt_red.png") no-repeat left center;
+      background-size: contain;
+      color: #934e6d; }
+
+.zky_music {
+  width: 100%;
+  height: 1.76rem;
+  background: #dad8d8;
+  position: fixed;
+  bottom: 0; }
+  .zky_music .progress {
+    width: 100%;
+    height: 0.1rem;
+    position: relative; }
+    .zky_music .progress .inner {
+      height: 100%;
+      width: 5rem;
+      background: #f33c53;
+      border-top-right-radius: 0.2rem;
+      border-bottom-right-radius: 0.2rem; }
+  .zky_music .play {
+    width: 100%;
+    height: 1.66rem;
+    background: #16181f;
+    position: relative;
+    overflow: hidden;
+    padding-right: 0.24rem; }
+    .zky_music .play .special {
+      width: 2.8rem;
+      height: 2.8rem;
+      border-radius: 50%;
+      background: red;
+      position: absolute;
+      left: -0.65rem;
+      top: -0.57rem;
+      background: url("../img/zky_spe.png") no-repeat center center;
+      background-size: 2.88rem 1.78rem; }
+    .zky_music .play .song {
+      width: 3.3rem;
+      height: 1.66rem;
+      position: absolute;
+      left: 2.15rem;
+      top: 0;
+      padding: 0.4rem 0 0 0.3rem; }
+      .zky_music .play .song h1 {
+        color: #fff;
+        font-size: 0.44rem; }
+      .zky_music .play .song h3 {
+        color: #575f6a;
+        font-size: 0.3rem; }
+    .zky_music .play .button {
+      width: 2.36rem;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 0.5rem 0.4rem 0 0; }
+      .zky_music .play .button .prev {
+        width: 0.3rem;
+        height: 0.91rem;
+        background: url("../img/zky_prev.png") no-repeat left center;
+        background-size: 0.3rem 0.29rem;
+        float: left; }
+      .zky_music .play .button .playbtn {
+        width: 1.34rem;
+        height: 0.91rem;
+        background: url("../img/playbtn.png") no-repeat center center;
+        background-size: 0.93rem 0.91rem;
+        float: left; }
+      .zky_music .play .button .next {
+        width: 0.3rem;
+        height: 0.91rem;
+        background: url("../img/zky_next.png") no-repeat left center;
+        background-size: 0.3rem 0.29rem;
+        float: left; }
+
+.yykbox {
+  width: 100%;
+  height: 7rem; }
+  .yykbox .y-left {
+    width: 1.7rem;
+    height: 7rem;
+    float: left; }
+    .yykbox .y-left ul {
+      width: 1.12rem;
+      height: 7rem;
+      border-right: 0.02rem solid #eae8e8;
+      padding: 0.36rem 0; }
+      .yykbox .y-left ul li {
+        font-size: 0.24rem;
+        margin-bottom: 1.15rem;
+        width: 0.94rem;
+        text-align: right;
+        position: relative;
+        color: #40464d; }
+        .yykbox .y-left ul li span {
+          position: absolute;
+          top: 0.1rem;
+          right: -0.28rem;
+          background: url("../img/y_1.png");
+          background-size: contain;
+          width: 0.21rem;
+          height: 0.2rem; }
+      .yykbox .y-left ul .li-button {
+        margin-bottom: 0; }
+      .yykbox .y-left ul .active {
+        font-size: 0.28rem;
+        color: #f33c53; }
+        .yykbox .y-left ul .active span {
+          background: url("../img/y_2.png");
+          background-size: contain; }
+  .yykbox .y-right {
+    width: 5.8rem;
+    height: 7rem;
+    float: left;
+    overflow: hidden;
+    position: relative; }
+
+.showbox {
+  width: 5.8rem;
+  height: 3.35rem;
+  position: absolute;
+  left: 30%;
+  top: 0%;
+  z-index: 0; }
+  .showbox .title h2 {
+    font-size: 0.26rem;
+    color: #2f3338; }
+  .showbox .title h3 {
+    font-size: 0.14rem;
+    color: #2f3338;
+    display: none; }
+  .showbox .show {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    background: #f972ff; }
+    .showbox .show img {
+      width: 4.8rem;
+      height: 3.36rem; }
+    .showbox .show .pic {
+      width: 0.31rem;
+      height: 0.3rem;
+      background: url("../img/y_9.png");
+      background-size: contain;
+      display: block;
+      position: absolute;
+      top: 0.2rem;
+      left: 0.2rem; }
+    .showbox .show span {
+      width: 0.31rem;
+      height: 0.3rem;
+      display: block;
+      position: absolute;
+      top: 0.2rem;
+      left: 0.6rem;
+      color: #fff;
+      font-size: 0.24rem;
+      line-height: 0.3rem; }
+    .showbox .show p {
+      width: 0.31rem;
+      height: 0.3rem;
+      display: block;
+      position: absolute;
+      bottom: 0.2rem;
+      left: 0.2rem;
+      color: #fff;
+      font-size: 0.24rem;
+      line-height: 0.3rem; }
+
+.showbox.one {
+  position: absolute;
+  left: 21%;
+  top: 0%;
+  z-index: 0;
+  opacity: 0.2; }
+  .showbox.one .title {
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+.showbox.two {
+  position: absolute;
+  top: 10%;
+  left: 14%;
+  z-index: 1;
+  opacity: 0.4; }
+
+.showbox.three {
+  position: absolute;
+  top: 20%;
+  left: 7%;
+  z-index: 2;
+  opacity: 0.6; }
+
+.showbox.four {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  z-index: 3; }
+  .showbox.four .title {
+    position: absolute;
+    top: 40%; }
+    .showbox.four .title h2 {
+      font-size: 0.26rem;
+      color: #2f3338; }
+    .showbox.four .title h3 {
+      font-size: 0.14rem;
+      color: #2f3338;
+      display: block; }
+
+.showbox.five {
+  position: absolute;
+  top: 40%;
+  left: 7%;
+  z-index: 2;
+  opacity: 0.6; }
+  .showbox.five .title {
+    position: absolute;
+    bottom: 0.2rem;
+    left: 0; }
+
+.showbox.six {
+  position: absolute;
+  top: 50%;
+  left: 14%;
+  z-index: 1;
+  opacity: 0.4; }
+  .showbox.six .title {
+    position: absolute;
+    bottom: 0.2rem;
+    left: 0; }
+
+.showbox.seven {
+  position: absolute;
+  left: 21%;
+  top: 60%;
+  z-index: 0;
+  opacity: 0.2; }
+  .showbox.seven .title {
+    position: absolute;
+    bottom: 0.2rem;
+    left: 0; }

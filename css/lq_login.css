@@ -1,0 +1,212 @@
+.lq-bg {
+  width: 100%;
+  height: 13.34rem;
+  position: relative; }
+  .lq-bg .lq-index {
+    width: 100%;
+    height: 6.5rem;
+    background: url(../img/lq_music_03.png) center center no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 0; }
+    .lq-bg .lq-index .sign {
+      width: 7.5rem;
+      height: 0.96rem;
+      position: absolute;
+      bottom: 0.82rem;
+      padding: 0 0.88rem; }
+      .lq-bg .lq-index .sign a {
+        display: inline-block;
+        width: 2.7rem;
+        height: 0.96rem;
+        border-radius: 0.48rem;
+        border: 3px solid #f7ac1c;
+        text-align: center;
+        line-height: 0.9rem;
+        font-size: 0.42rem;
+        font-family: "SanFranciscoDisplay Mdeium"; }
+      .lq-bg .lq-index .sign .in {
+        background: #f7ac1c;
+        color: #fff; }
+      .lq-bg .lq-index .sign .up {
+        background: #fff;
+        color: #fe8a23;
+        margin-left: 0.2rem; }
+
+.lq-login {
+  width: 100%;
+  height: 13.34rem; }
+  .lq-login .go-back {
+    padding-top: 0.54rem;
+    margin-left: 0.24rem;
+    position: relative; }
+    .lq-login .go-back a {
+      width: 0.98rem;
+      height: 0.52rem;
+      display: block;
+      background: url("../img/lq-back_03.png") center center no-repeat;
+      background-size: contain; }
+  .lq-login .user-header {
+    width: 2.35rem;
+    height: 2.35rem;
+    background: url("../img/lq-user-head_03.png") center center no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    margin-top: -0.24rem;
+    padding: 0.27rem; }
+    .lq-login .user-header .heads {
+      width: 1.8rem;
+      height: 1.8rem;
+      border-radius: 50%;
+      overflow: hidden; }
+  .lq-login .lq-login-three.user-form {
+    margin-top: 0.8rem;
+    position: relative; }
+  .lq-login .username-warn {
+    background: url(../img/lq-userlogin-warn_03.png) center center no-repeat; }
+  .lq-login .password-warn {
+    background: url("../img/password-warn_03.png") center center no-repeat; }
+  .lq-login .username-default {
+    background: url("../img/lq-userlogin_03.png") center center no-repeat; }
+  .lq-login .user-form {
+    width: 100%;
+    height: 3.53rem;
+    background-size: contain;
+    padding: 0 0.24rem;
+    margin-top: 0.24rem; }
+    .lq-login .user-form .has-warning {
+      position: absolute;
+      top: -0.8rem;
+      padding: 0 0.76rem; }
+      .lq-login .user-form .has-warning .warn-icon {
+        display: inline-block;
+        width: 0.41rem;
+        height: 0.41rem;
+        background: url("../img/lq-warn-icon_03.png") center center no-repeat;
+        background-size: cover;
+        position: relative;
+        top: 0.08rem; }
+      .lq-login .user-form .has-warning .control-label {
+        color: #fff;
+        font-size: 0.3rem; }
+    .lq-login .user-form .form-group .password-default {
+      display: inline-block;
+      width: 1.52rem;
+      height: 0.8rem;
+      position: relative;
+      top: -0.68rem;
+      left: 3rem; }
+    .lq-login .user-form .form-group .password-look {
+      background: url("../img/password_look_07.png") center center no-repeat;
+      background-size: contain; }
+    .lq-login .user-form .form-group .true {
+      background: url("../img/true_07.png") center center no-repeat;
+      position: relative;
+      top: 0.08rem; }
+    .lq-login .user-form .form-group .false {
+      background: url("../img/false_07.png") center center no-repeat;
+      position: relative;
+      top: 0.08rem; }
+    .lq-login .user-form .form-group .del {
+      width: 0.2rem;
+      height: 0.2rem;
+      background: url("../img/lq_del_07.png") center center no-repeat;
+      transform: scale(0.8, 0.8);
+      position: relative;
+      top: 0.08rem; }
+    .lq-login .user-form .form-group .email-default {
+      width: 4.3rem;
+      height: 1.1rem;
+      display: inline-block;
+      position: relative;
+      right: -1.4rem;
+      top: 0; }
+    .lq-login .user-form .form-group .verification {
+      background: url("../img/yanzhengma_11.png") center center no-repeat;
+      background-size: contain; }
+    .lq-login .user-form .form-group .count-down {
+      background: url("../img/daojishi_07.png") center center no-repeat;
+      background-size: contain; }
+    .lq-login .user-form .form-group .lq-email {
+      background: url("../img/lq-email_11.png") center center no-repeat;
+      background-size: contain; }
+    .lq-login .user-form .form-group .user-default {
+      display: inline-block;
+      width: 0.39rem;
+      height: 0.39rem;
+      background-size: cover; }
+    .lq-login .user-form .form-group .form-control {
+      width: 4.5rem;
+      height: 0.52rem;
+      background: #fbfbfb;
+      font-size: 0.26rem; }
+    .lq-login .user-form .username {
+      padding: 0.7rem 0 0 1.3rem; }
+    .lq-login .user-form .password {
+      padding: 1.2rem 0 0 1.3rem; }
+    .lq-login .user-form .lq_pass {
+      padding: 0 0 0 1.3rem;
+      position: relative;
+      top: -0.06rem; }
+    .lq-login .user-form .checkbox {
+      width: 100%;
+      height: 0.34rem;
+      padding: 0 0.54rem;
+      margin-top: 0.9rem;
+      font-size: 0.3rem;
+      color: #fff; }
+      .lq-login .user-form .checkbox .label {
+        display: inline-block; }
+      .lq-login .user-form .checkbox .forget {
+        display: inline-block;
+        color: #f6f6f6;
+        float: right; }
+    .lq-login .user-form .margin {
+      margin-top: 0; }
+    .lq-login .user-form .submit {
+      width: 100%;
+      height: 1.6rem;
+      background: url("../img/lq-sign-in_02.png") center center no-repeat;
+      background-size: contain;
+      border-style: none;
+      margin-top: 0.4rem; }
+    .lq-login .user-form .login-ing {
+      width: 100%;
+      height: 1.6rem;
+      background: url("../img/logining_06.png") center center no-repeat;
+      background-size: contain;
+      border-style: none;
+      margin-top: 0.4rem; }
+    .lq-login .user-form .third-party-login {
+      width: 100%;
+      height: 1.03rem;
+      top: 6.8rem;
+      padding: 0 0.9rem;
+      margin-top: 0.4rem; }
+      .lq-login .user-form .third-party-login ul li {
+        float: left; }
+        .lq-login .user-form .third-party-login ul li a {
+          display: inline-block;
+          width: 1.03rem;
+          height: 1.03rem; }
+        .lq-login .user-form .third-party-login ul li:nth-child(1) a {
+          background: url("../img/wechat_03.png") center center no-repeat;
+          background-size: contain; }
+        .lq-login .user-form .third-party-login ul li:nth-child(2) {
+          margin-left: 1.1rem; }
+          .lq-login .user-form .third-party-login ul li:nth-child(2) a {
+            background: url("../img/qq_03.png") center center no-repeat;
+            background-size: contain; }
+        .lq-login .user-form .third-party-login ul li:nth-child(3) {
+          float: right; }
+          .lq-login .user-form .third-party-login ul li:nth-child(3) a {
+            background: url("../img/sina_03.png") center center no-repeat;
+            background-size: contain; }
+    .lq-login .user-form .register {
+      width: 100%;
+      height: 1rem;
+      background: url("../img/register_03.png") center center no-repeat;
+      background-size: contain;
+      padding: 0 0.34rem;
+      border-style: none;
+      margin-top: 0.4rem; }

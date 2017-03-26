@@ -1,0 +1,441 @@
+@charset "UTF-8";
+.nav .logo, .tab a:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.font-20 {
+  font-size: 12px; }
+  @media (min-width: 320px) {
+    .font-20 {
+      font-size: 12px; } }
+  @media (min-width: 375px) {
+    .font-20 {
+      font-size: 14px; } }
+  @media (min-width: 750px) {
+    .font-20 {
+      font-size: 20px; } }
+
+.font-28 {
+  font-size: 12px; }
+  @media (min-width: 320px) {
+    .font-28 {
+      font-size: 12px; } }
+  @media (min-width: 360px) {
+    .font-28 {
+      font-size: 14px; } }
+  @media (min-width: 375px) {
+    .font-28 {
+      font-size: 16px; } }
+  @media (min-width: 412px) {
+    .font-28 {
+      font-size: 16px; } }
+  @media (min-width: 750px) {
+    .font-28 {
+      font-size: 28px; } }
+
+.font-30 {
+  font-size: 12px; }
+  @media (min-width: 320px) {
+    .font-30 {
+      font-size: 14px; } }
+  @media (min-width: 360px) {
+    .font-30 {
+      font-size: 16px; } }
+  @media (min-width: 375px) {
+    .font-30 {
+      font-size: 18px; } }
+  @media (min-width: 412px) {
+    .font-30 {
+      font-size: 20px; } }
+  @media (min-width: 750px) {
+    .font-30 {
+      font-size: 30px; } }
+
+.font-26 {
+  font-size: 12px; }
+  @media (min-width: 320px) {
+    .font-26 {
+      font-size: 12px; } }
+  @media (min-width: 360px) {
+    .font-26 {
+      font-size: 14px; } }
+  @media (min-width: 375px) {
+    .font-26 {
+      font-size: 16px; } }
+  @media (min-width: 412px) {
+    .font-26 {
+      font-size: 16px; } }
+  @media (min-width: 750px) {
+    .font-26 {
+      font-size: 26px; } }
+
+.font-24 {
+  font-size: 12px; }
+  @media (min-width: 320px) {
+    .font-24 {
+      font-size: 12px; } }
+  @media (min-width: 360px) {
+    .font-24 {
+      font-size: 14px; } }
+  @media (min-width: 375px) {
+    .font-24 {
+      font-size: 16px; } }
+  @media (min-width: 412px) {
+    .font-24 {
+      font-size: 16px; } }
+  @media (min-width: 750px) {
+    .font-24 {
+      font-size: 24px; } }
+
+.font-44 {
+  font-size: 16px; }
+  @media (min-width: 320px) {
+    .font-44 {
+      font-size: 16px; } }
+  @media (min-width: 360px) {
+    .font-44 {
+      font-size: 18px; } }
+  @media (min-width: 375px) {
+    .font-44 {
+      font-size: 20px; } }
+  @media (min-width: 412px) {
+    .font-44 {
+      font-size: 24px; } }
+  @media (min-width: 750px) {
+    .font-44 {
+      font-size: 44px; } }
+
+.container {
+  padding: 0 0.24rem; }
+
+/*头部*/
+.header {
+  height: 2.22rem;
+  background: url(../img/s_bg.jpg);
+  padding-top: 0.15rem; }
+
+.nav {
+  height: 0.9rem;
+  padding-top: 0.15rem;
+  position: relative; }
+  .nav a {
+    display: block;
+    height: 0.6rem; }
+    .nav a img {
+      height: 100%; }
+  .nav .btn_center {
+    float: left; }
+  .nav .btn_search {
+    float: right; }
+  .nav .logo {
+    height: 0.56rem; }
+  .nav span {
+    display: block;
+    width: 0.42rem;
+    height: 0.22rem;
+    background: #f33c53;
+    position: absolute;
+    left: 0.32rem;
+    top: 0.08rem;
+    line-height: 0.22rem;
+    border-radius: 0.11rem;
+    text-align: center;
+    color: #f9f9f9;
+    text-shadow: 2px 4px 5px #ec2d40;
+    overflow: hidden; }
+
+.tab {
+  height: 0.72rem;
+  width: 4.54rem;
+  margin: 0 auto;
+  margin-top: 0.07rem;
+  background-image: url("../img/s_tab_bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 0.08rem 0.06rem; }
+  .tab a {
+    display: block;
+    height: 100%;
+    line-height: 0.56rem;
+    float: left;
+    color: #86898e;
+    position: relative; }
+    .tab a:after {
+      display: block;
+      position: absolute;
+      content: '';
+      width: 0.04rem;
+      height: 0.04rem;
+      background: #616871;
+      border-radius: 0.02rem; }
+    .tab a span {
+      display: block;
+      width: 0.8rem;
+      margin: 0 auto;
+      text-align: justify; }
+      .tab a span:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+        height: 0; }
+  .tab .active {
+    background-image: url("../img/s_a_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff; }
+    .tab .active:after {
+      display: none; }
+
+/*banner*/
+.banner {
+  width: 100%;
+  position: relative;
+  height: auto;
+  overflow: hidden; }
+  .banner .imgbox {
+    width: 500%; }
+    .banner .imgbox:after {
+      content: '';
+      display: block;
+      clear: both; }
+  .banner img {
+    width: 20%;
+    float: left; }
+  .banner .more {
+    position: absolute;
+    width: 1.52rem;
+    height: 0.52rem;
+    border: 1px solid #bfb8b1;
+    border-radius: 0.26rem;
+    background: rgba(50, 56, 64, 0.8);
+    text-align: center;
+    line-height: 0.50rem;
+    color: #f7f9fd;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 1.1rem; }
+    .banner .more:after {
+      display: block;
+      content: '';
+      width: 0.06rem;
+      height: 0.06rem;
+      border-radius: 50%;
+      position: absolute;
+      left: 0.27rem;
+      background: #fefefe;
+      bottom: -0.04rem; }
+    .banner .more:before {
+      display: block;
+      content: '';
+      width: 0.06rem;
+      height: 0.06rem;
+      border-radius: 50%;
+      position: absolute;
+      right: 0.27rem;
+      background: #fefefe;
+      top: -0.05rem; }
+  .banner ul {
+    position: absolute;
+    bottom: 0.26rem;
+    width: 0.7rem;
+    height: 0.08rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+    .banner ul li {
+      float: left;
+      width: 0.06rem;
+      height: 0.06rem;
+      border-radius: 50%;
+      margin: 0.01rem 0.03rem;
+      background: rgba(243, 60, 83, 0.7); }
+    .banner ul .active {
+      width: 0.08rem;
+      height: 0.08rem;
+      border-radius: 50%;
+      margin: 0rem 0.03rem;
+      background: #f33c53; }
+
+.search {
+  height: 1.28rem;
+  padding: 0.32rem 0.24rem; }
+  .search .box {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+  .search .singer {
+    width: 1.58rem;
+    height: 0.54rem;
+    float: left;
+    margin-top: 0.05rem;
+    background: url("../img/s_pos.png");
+    padding-left: 0.5rem;
+    background-position: 0.2rem center;
+    background-size: 0.2rem 0.3rem;
+    background-repeat: no-repeat;
+    border-radius: 0.27rem;
+    box-shadow: 0px 0px 10px #cecbcb;
+    line-height: 0.54rem; }
+  .search input {
+    float: right;
+    width: 70%;
+    height: 100%;
+    box-shadow: 0px 0px 10px #cecbcb;
+    border-radius: 0.32rem;
+    padding-left: 0.58rem;
+    padding-right: 0.52rem;
+    background-image: url("../img/s_sea.png");
+    background-repeat: no-repeat;
+    background-size: 0.28rem 0.28rem;
+    background-position: 0.24rem center; }
+  .search img {
+    width: 0.24rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 0.26rem; }
+
+.menu {
+  height: 5.06rem;
+  padding: 0.15rem 0;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  position: relative; }
+  .menu .items {
+    width: 17.44rem;
+    height: 100%;
+    transform: translate3d(-2.8rem, 0, 0);
+    transition: transform 0.5s ease; }
+  .menu .item {
+    width: 4.16rem;
+    height: 4.76rem;
+    box-shadow: 0px 0px 10px #cecbcb;
+    float: left;
+    margin: 0.1rem;
+    transform: scale(0.9, 0.9); }
+    .menu .item a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+    .menu .item .top {
+      width: 2.47rem;
+      height: 3.13rem;
+      padding-top: 0.46rem;
+      margin: 0 auto; }
+      .menu .item .top img {
+        width: 100%; }
+    .menu .item .line {
+      width: 3.52rem;
+      display: block;
+      margin: 0 auto; }
+    .menu .item p {
+      text-align: center;
+      line-height: 1em; }
+    .menu .item .eng {
+      margin-top: 0.24rem;
+      margin-bottom: 0.12rem; }
+    .menu .item ul {
+      height: 0.06rem;
+      width: 0.56rem;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      bottom: 0.2rem;
+      text-align: center; }
+      .menu .item ul li {
+        width: 0.06rem;
+        float: left;
+        margin: 0 0.03rem;
+        height: 100%;
+        border-radius: 0.03rem;
+        background: #f33c53; }
+      .menu .item ul .active {
+        width: 0.14rem; }
+  .menu .active {
+    transform: scale(1, 1); }
+
+.footer {
+  position: fixed;
+  width: 100%;
+  height: 1.76rem;
+  background: #000;
+  bottom: 0; }
+
+.zky_music {
+  width: 100%;
+  height: 1.76rem;
+  background: #dad8d8;
+  position: fixed;
+  bottom: 0; }
+  .zky_music .progress {
+    width: 100%;
+    height: 0.1rem;
+    position: relative; }
+    .zky_music .progress .inner {
+      height: 100%;
+      width: 5rem;
+      background: #f33c53;
+      border-top-right-radius: 0.2rem;
+      border-bottom-right-radius: 0.2rem; }
+  .zky_music .play {
+    width: 100%;
+    height: 1.66rem;
+    background: #16181f;
+    position: relative;
+    overflow: hidden;
+    padding-right: 0.24rem; }
+    .zky_music .play .special {
+      width: 2.8rem;
+      height: 2.8rem;
+      border-radius: 50%;
+      background: red;
+      position: absolute;
+      left: -0.65rem;
+      top: -0.57rem;
+      background: url("../img/zky_spe.png") no-repeat center center;
+      background-size: 2.88rem 1.78rem; }
+    .zky_music .play .song {
+      width: 3.3rem;
+      height: 1.66rem;
+      position: absolute;
+      left: 2.15rem;
+      top: 0;
+      padding: 0.4rem 0 0 0.3rem; }
+      .zky_music .play .song h1 {
+        color: #fff;
+        font-size: 0.44rem; }
+      .zky_music .play .song h3 {
+        color: #575f6a;
+        font-size: 0.3rem; }
+    .zky_music .play .button {
+      width: 2.36rem;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 0.5rem 0.4rem 0 0; }
+      .zky_music .play .button .prev {
+        width: 0.3rem;
+        height: 0.91rem;
+        background: url("../img/zky_prev.png") no-repeat left center;
+        background-size: 0.3rem 0.29rem;
+        float: left; }
+      .zky_music .play .button .playbtn {
+        width: 1.34rem;
+        height: 0.91rem;
+        background: url("../img/playbtn.png") no-repeat center center;
+        background-size: 0.93rem 0.91rem;
+        float: left; }
+      .zky_music .play .button .next {
+        width: 0.3rem;
+        height: 0.91rem;
+        background: url("../img/zky_next.png") no-repeat left center;
+        background-size: 0.3rem 0.29rem;
+        float: left; }

@@ -1,0 +1,237 @@
+.zky_container {
+  width: 100%;
+  height: 13.3rem;
+  background: url("../img/zky_4_fen.png") no-repeat center center;
+  background-size: 7.5rem 13.34rem;
+  position: relative; }
+  .zky_container .inner {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); }
+    .zky_container .inner .box {
+      padding: 0 0.24rem; }
+      .zky_container .inner .box .header {
+        width: 100%;
+        height: 0.9rem;
+        line-height: 0.9rem; }
+        .zky_container .inner .box .header li {
+          width: 33.33%;
+          height: 100%;
+          background: url("../img/zky_4_return.png") no-repeat left center;
+          background-size: 1.02rem 0.58rem;
+          float: left; }
+        .zky_container .inner .box .header .word {
+          text-align: center;
+          background: none;
+          color: #fff;
+          font-size: 0.36rem; }
+        .zky_container .inner .box .header .circle {
+          padding-right: 0.32rem;
+          height: 100%;
+          background: none;
+          position: relative; }
+          .zky_container .inner .box .header .circle ul {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto 0;
+            width: 100%;
+            height: 0.08rem; }
+            .zky_container .inner .box .header .circle ul li {
+              width: 0.08rem;
+              height: 0.08rem;
+              background: #a9a4a4;
+              border-radius: 50%;
+              float: right;
+              margin-left: 0.1rem; }
+
+.singer {
+  width: 3rem;
+  height: 0.66rem;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: 0.3rem;
+  line-height: 0.66rem; }
+  .singer span {
+    width: 0.78rem;
+    height: 0.01rem;
+    background: #41464d;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0; }
+  .singer .leftline {
+    left: 0; }
+  .singer .rightline {
+    right: 0; }
+
+.mv {
+  width: 4.36rem;
+  height: 0.6rem;
+  margin: 0 auto; }
+  .mv li {
+    width: 1.4rem;
+    height: 0.6rem;
+    background: url("../img/zky_4_mv.png") no-repeat center center;
+    background-size: 1.4rem 0.6rem;
+    float: left;
+    margin-right: 0.05rem;
+    font-size: 0.3rem;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    line-height: 0.6rem; }
+    .mv li a {
+      color: #fff; }
+
+.yi {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 0.1rem;
+  border: 1px solid #6a5d5b;
+  color: #fff;
+  text-align: center;
+  line-height: 0.38rem;
+  font-size: 0.24rem;
+  margin-left: 6.16rem;
+  margin-top: 0.08rem; }
+
+.news {
+  text-align: center;
+  color: #fff;
+  font-size: 0.3rem; }
+  .news p {
+    margin-bottom: 0.24rem; }
+  .news .active {
+    color: rgba(255, 255, 255, 0.1); }
+  .news .btns {
+    width: 1rem;
+    height: 0.4rem;
+    margin: 0 auto;
+    padding-top: 0.2rem; }
+    .news .btns a {
+      display: block;
+      float: left;
+      width: 0.1rem;
+      height: 0.1rem;
+      border-radius: 50%;
+      background: #8b807f;
+      margin: 0 0.1rem; }
+    .news .btns a.active {
+      width: 0.12rem;
+      height: 0.12rem;
+      background: #fff; }
+.Q_xiazai {
+  width: 100%;
+  height: 0.34rem;
+  margin-top: 0.5rem; }
+.Q_xiazai li {
+  width: 20%;
+  float: left; }
+  .Q_xiazai .im{
+    position: relative;
+    top:-0.1rem;
+  }
+.Q_xiazai li a {
+  width: 0.34rem;
+  display: block;
+  margin: 0 auto; }
+.Q_xiazai li .tanmu{
+  width: 0.8rem;
+  display: block;
+  margin: 0 auto; }
+.Q_xiazai li a img {
+  width: 100%; }
+
+.jindu {
+  width: 100%;
+  height: 0.24rem;
+  margin-top: 0.5rem;
+  position: relative; }
+.jindu .time {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-size: 0.24rem; }
+.jindu .tiao {
+  width: 80%;
+  height: 2px;
+  position: absolute;
+  top: 0.15rem;
+  left: 10%;
+  background-color: #474c53; }
+.jindu .redtiao {
+  width: 20%;
+  height: 2px;
+  position: absolute;
+  top: 0.15rem;
+  left: 10%;
+  background-color: #f3354d; }
+.jindu .tu {
+  width: 0.21rem;
+  height: 0.21rem;
+  position: absolute;
+  top: 0.1rem;
+  left: 29%; }
+.jindu .tu img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+.jindu .timeall {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  font-size: 0.24rem; }
+
+.xun {
+  width: 100%;
+  height: 2rem;
+  margin-top: 0.5rem;
+  position: relative; }
+.xun li {
+  float: left; }
+.xun .danqu {
+  width: 0.43rem;
+  height: 0.32rem;
+  position: absolute;
+  left: 3%; }
+.xun .danqu img {
+  width: 100%; }
+.xun .prev {
+  width: 0.83rem;
+  height: 0.83rem;
+  position: absolute;
+  left: 20%; }
+.xun .prev img {
+  width: 100%; }
+.xun .zanting {
+  width: 1.16rem;
+  height: 1.17rem;
+  position: absolute;
+  top:-0.2rem;
+  left: 41.5%; }
+
+.xun .zanting img {
+  width: 100%; }
+.xun .next {
+  width: 0.83rem;
+  height: 0.83rem;
+  position: absolute;
+  right: 20%; }
+.xun .next img {
+  width: 100%; }
+.xun .lie {
+  width: 0.43rem;
+  height: 0.32rem;
+  position: absolute;
+  right: 3%; }
+.xun .lie img {
+  width: 100%; }
+
+/*# sourceMappingURL=zky_lyric.css.map */

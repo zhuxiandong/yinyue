@@ -1,0 +1,518 @@
+.nav .logo, .tab a:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.font-20 {
+  font-size: 12px; }
+  @media (min-width: 320px) {
+    .font-20 {
+      font-size: 12px; } }
+  @media (min-width: 375px) {
+    .font-20 {
+      font-size: 14px; } }
+  @media (min-width: 750px) {
+    .font-20 {
+      font-size: 20px; } }
+
+.font-28 {
+  font-size: 12px; }
+  @media (min-width: 320px) {
+    .font-28 {
+      font-size: 12px; } }
+  @media (min-width: 360px) {
+    .font-28 {
+      font-size: 14px; } }
+  @media (min-width: 375px) {
+    .font-28 {
+      font-size: 16px; } }
+  @media (min-width: 412px) {
+    .font-28 {
+      font-size: 16px; } }
+  @media (min-width: 750px) {
+    .font-28 {
+      font-size: 28px; } }
+
+.font-30 {
+  font-size: 12px; }
+  @media (min-width: 320px) {
+    .font-30 {
+      font-size: 14px; } }
+  @media (min-width: 360px) {
+    .font-30 {
+      font-size: 16px; } }
+  @media (min-width: 375px) {
+    .font-30 {
+      font-size: 18px; } }
+  @media (min-width: 412px) {
+    .font-30 {
+      font-size: 20px; } }
+  @media (min-width: 750px) {
+    .font-30 {
+      font-size: 30px; } }
+
+.font-26 {
+  font-size: 12px; }
+  @media (min-width: 320px) {
+    .font-26 {
+      font-size: 12px; } }
+  @media (min-width: 360px) {
+    .font-26 {
+      font-size: 14px; } }
+  @media (min-width: 375px) {
+    .font-26 {
+      font-size: 16px; } }
+  @media (min-width: 412px) {
+    .font-26 {
+      font-size: 16px; } }
+  @media (min-width: 750px) {
+    .font-26 {
+      font-size: 26px; } }
+
+.font-24 {
+  font-size: 12px; }
+  @media (min-width: 320px) {
+    .font-24 {
+      font-size: 12px; } }
+  @media (min-width: 360px) {
+    .font-24 {
+      font-size: 14px; } }
+  @media (min-width: 375px) {
+    .font-24 {
+      font-size: 16px; } }
+  @media (min-width: 412px) {
+    .font-24 {
+      font-size: 16px; } }
+  @media (min-width: 750px) {
+    .font-24 {
+      font-size: 24px; } }
+
+.font-44 {
+  font-size: 16px; }
+  @media (min-width: 320px) {
+    .font-44 {
+      font-size: 16px; } }
+  @media (min-width: 360px) {
+    .font-44 {
+      font-size: 18px; } }
+  @media (min-width: 375px) {
+    .font-44 {
+      font-size: 20px; } }
+  @media (min-width: 412px) {
+    .font-44 {
+      font-size: 24px; } }
+  @media (min-width: 750px) {
+    .font-44 {
+      font-size: 44px; } }
+
+.container {
+  padding: 0 0.24rem; }
+
+/*头部*/
+.header {
+  height: 2.22rem;
+  background: url(../img/s_bg.jpg);
+  padding-top: 0.15rem; }
+
+.nav {
+  height: 0.9rem;
+  padding-top: 0.15rem;
+  position: relative; }
+  .nav a {
+    display: block;
+    height: 0.6rem; }
+    .nav a img {
+      height: 100%; }
+  .nav .btn_center {
+    float: left; }
+  .nav .btn_search {
+    float: right; }
+  .nav .logo {
+    height: 0.56rem; }
+  .nav span {
+    display: block;
+    width: 0.42rem;
+    height: 0.22rem;
+    background: #f33c53;
+    position: absolute;
+    left: 0.32rem;
+    top: 0.08rem;
+    line-height: 0.22rem;
+    border-radius: 0.11rem;
+    text-align: center;
+    color: #f9f9f9;
+    text-shadow: 2px 4px 5px #ec2d40;
+    overflow: hidden; }
+
+.tab {
+  height: 0.72rem;
+  width: 4.54rem;
+  margin: 0 auto;
+  margin-top: 0.07rem;
+  background-image: url("../img/s_tab_bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 0.08rem 0.06rem; }
+  .tab a {
+    display: block;
+    height: 100%;
+    line-height: 0.56rem;
+    float: left;
+    color: #86898e;
+    position: relative; }
+    .tab a:after {
+      display: block;
+      position: absolute;
+      content: '';
+      width: 0.04rem;
+      height: 0.04rem;
+      background: #616871;
+      border-radius: 0.02rem; }
+    .tab a span {
+      display: block;
+      width: 0.8rem;
+      margin: 0 auto;
+      text-align: justify; }
+      .tab a span:after {
+        content: '';
+        display: inline-block;
+        width: 100%;
+        height: 0; }
+  .tab .active {
+    background-image: url("../img/s_a_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff; }
+    .tab .active:after {
+      display: none; }
+.lt_music .cover, .lt_music .lt_cate a p {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.lt_header .lt_top .logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+body {
+  background: #f7f7f7; }
+
+.lt_header {
+  width: 100%;
+  height: 2.7rem;
+  background: url("../img/lt_rot.png");
+  margin: 0 auto;
+  padding: 0 0.22rem;
+  box-sizing: border-box;
+  padding-top: 0.39rem; }
+  .lt_header .lt_top {
+    width: 100%;
+    height: 0.74rem;
+    position: relative; }
+    .lt_header .lt_top .left {
+      display: block;
+      width: 0.75rem;
+      height: 100%;
+      background: url("../img/lt_search.png") no-repeat left bottom;
+      background-size: contain;
+      float: left; }
+    .lt_header .lt_top .logo {
+      width: 0.82rem;
+      height: 100%;
+      background: url("../img/lt_logo.png") no-repeat center center;
+      background-size: contain; }
+    .lt_header .lt_top .right {
+      display: block;
+      width: 1.06rem;
+      height: 100%;
+      background: url("../img/lt_search.png") no-repeat center center;
+      background-size: contain;
+      float: right; }
+  .lt_header .lt_bottom {
+    width: 4.6rem;
+    height: 0.71rem;
+    margin: 0.36rem auto;
+    background: url("../img/lt_card.png") no-repeat center center;
+    background-size: contain;
+    border-radius: 0.355rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0.06rem; }
+    .lt_header .lt_bottom .contant {
+      width: 100%;
+      height: 100%;
+      background: pink; }
+
+.lt_music {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-bottom: 0.45rem; }
+  .lt_music .cover {
+    width: 100%;
+    height: 0.63rem;
+    background: url("../img/lt_cover.png") no-repeat center bottom;
+    background-size: cover;
+    position: absolute;
+    top: 0; }
+  .lt_music .lt_cate {
+    padding: 0 0.22rem;
+    overflow: hidden; }
+    .lt_music .lt_cate a {
+      height: 1.9rem;
+      border-radius: 0.04rem;
+      position: relative; }
+      .lt_music .lt_cate a p {
+        text-align: center;
+        font-size: 0.23rem;
+        position: absolute;
+        bottom: 0.19rem; }
+    .lt_music .lt_cate a:nth-child(1) {
+      background: url("../img/lt_green.png") no-repeat left center;
+      background-size: contain;
+      color: #509596; }
+    .lt_music .lt_cate a:nth-child(2) {
+      background: url("../img/lt_blue.png") no-repeat left center;
+      background-size: contain;
+      color: #597599; }
+    .lt_music .lt_cate a:nth-child(3) {
+      background: url("../img/lt_puple.png") no-repeat left center;
+      background-size: contain;
+      color: #8a5c99; }
+    .lt_music .lt_cate a:nth-child(4) {
+      background: url("../img/lt_red.png") no-repeat left center;
+      background-size: contain;
+      color: #fd5d9d; }
+  .lt_music .m_hot {
+    width: 100%;
+    height: auto;
+    background: #f6f6f6;
+    margin-top: 0.46rem;
+    box-sizing: border-box;
+    padding: 0.17rem 0.22rem;
+    padding-bottom: 0;
+    position: relative; }
+    .lt_music .m_hot .m_top {
+      width: 100%;
+      height: 0.82rem; }
+      .lt_music .m_hot .m_top .m_left {
+        width: 2.21rem;
+        height: 100%;
+        background: url("../img/m1.png") no-repeat center center;
+        background-size: contain;
+        float: left; }
+      .lt_music .m_hot .m_top .m_right {
+        width: 1.18rem;
+        height: 100%;
+        background: url("../img/lt_breads.png") no-repeat center center;
+        background-size: contain;
+        float: right; }
+    .lt_music .m_hot .L_lunbo {
+      position: relative;
+      overflow: hidden; }
+      .lt_music .m_hot .L_lunbo .L_lunbo_img {
+        width: 72.13333%;
+        border-radius: 0.05rem;
+        margin-right: 1.2%;
+        background-color: #fff;
+        float: left; }
+        .lt_music .m_hot .L_lunbo .L_lunbo_img .L_lunbo_img_tu {
+          width: 100%;
+          height: 3.09rem;
+          background: url("../img/L_lunbo_01_15.png") no-repeat center center;
+          background-size: cover;
+          margin-bottom: 0.27rem; }
+        .lt_music .m_hot .L_lunbo .L_lunbo_img .L_lunbo_img_title {
+          width: 100%;
+          height: 0.32rem;
+          font-szie: 0.3rem;
+          margin-left: 0.05rem; }
+          .lt_music .m_hot .L_lunbo .L_lunbo_img .L_lunbo_img_title .L_lunbo_img_title_con {
+            float: left;
+            color: #3f4348; }
+          .lt_music .m_hot .L_lunbo .L_lunbo_img .L_lunbo_img_title .L_lunbo_img_title_auth {
+            float: left;
+            color: #7f7f7f; }
+        .lt_music .m_hot .L_lunbo .L_lunbo_img .L_lunbo_img_icon {
+          width: 49.06667%;
+          float: left;
+          font-size: 0.24rem;
+          text-align: center;
+          margin-left: 0.05rem; }
+          .lt_music .m_hot .L_lunbo .L_lunbo_img .L_lunbo_img_icon .col-4 {
+            color: #bdb9b9; }
+          .lt_music .m_hot .L_lunbo .L_lunbo_img .L_lunbo_img_icon .col-4:nth-child(1) {
+            background: url("../img/L_lunbo_img_01.png") no-repeat left center;
+            background-size: 0.26rem 0.26rem; }
+          .lt_music .m_hot .L_lunbo .L_lunbo_img .L_lunbo_img_icon .col-4:nth-child(2) {
+            background: url("../img/L_lunbo_img_02.png") no-repeat left center;
+            background-size: 0.26rem 0.26rem; }
+          .lt_music .m_hot .L_lunbo .L_lunbo_img .L_lunbo_img_icon .col-4:nth-child(3) {
+            background: url("../img/L_lunbo_img_03.png") no-repeat left center;
+            background-size: 0.26rem 0.26rem; }
+          .lt_music .m_hot .L_lunbo .L_lunbo_img .L_lunbo_img_icon .col-4:nth-child(4) {
+            background: url("../img/L_lunbo_img_04.png") no-repeat left center;
+            background-size: 0.26rem 0.26rem; }
+        .lt_music .m_hot .L_lunbo .L_lunbo_img .L_lunbo_img_num {
+          float: right;
+          margin: -0.1rem 0.15rem 0 0;
+          width: 17.06667%;
+          font-size: 0.48rem;
+          color: #7f7f7f; }
+      .lt_music .m_hot .L_lunbo .L_lunbo_img1 {
+        position: absolute;
+        top: 0;
+        left: 80%; }
+  .lt_music .m_new {
+    width: 100%;
+    height: auto;
+    background: #f6f6f6;
+    margin-top: 0.46rem;
+    box-sizing: border-box;
+    padding: 0.17rem 0.22rem;
+    padding-bottom: 0;
+    position: relative;
+    margin-bottom: 1.7rem; }
+    .lt_music .m_new .m_top {
+      width: 100%;
+      height: 0.82rem; }
+      .lt_music .m_new .m_top .m_left {
+        width: 2.21rem;
+        height: 100%;
+        background: url("../img/m2_19.png") no-repeat center center;
+        background-size: contain;
+        float: left; }
+      .lt_music .m_new .m_top .m_right {
+        width: 1.18rem;
+        height: 100%;
+        background: url("../img/lt_breads.png") no-repeat center center;
+        background-size: contain;
+        float: right; }
+    .lt_music .m_new .m_button {
+      width: 100%;
+      height: 5.11rem; }
+      .lt_music .m_new .m_button .m_buttonl {
+        width: 3.43rem;
+        height: 100%;
+        float: left; }
+        .lt_music .m_new .m_button .m_buttonl .tu1 {
+          width: 100%;
+          height: 2.2rem; }
+        .lt_music .m_new .m_button .m_buttonl h1 {
+          margin-top: 0.22rem;
+          font-size: 0.4rem; }
+        .lt_music .m_new .m_button .m_buttonl p {
+          margin-top: 0.22rem;
+          font-size: 0.2rem; }
+        .lt_music .m_new .m_button .m_buttonl .tu2 {
+          width: 2.38rem;
+          height: 0.4rem; }
+        .lt_music .m_new .m_button .m_buttonl .tu3 {
+          width: 1.3rem;
+          height: 0.32rem; }
+        .lt_music .m_new .m_button .m_buttonl .tu4 {
+          width: 2.57rem;
+          height: 0.5rem; }
+      .lt_music .m_new .m_button .m_buttonr {
+        width: 3.43rem;
+        height: 100%;
+        float: left;
+        margin-left: 0.1rem; }
+        .lt_music .m_new .m_button .m_buttonr .tu1 {
+          width: 100%;
+          height: 2.2rem; }
+        .lt_music .m_new .m_button .m_buttonr h1 {
+          margin-top: 0.22rem;
+          font-size: 0.4rem; }
+        .lt_music .m_new .m_button .m_buttonr p {
+          margin-top: 0.22rem;
+          font-size: 0.2rem; }
+        .lt_music .m_new .m_button .m_buttonr .tu2 {
+          width: 2.38rem;
+          height: 0.4rem; }
+        .lt_music .m_new .m_button .m_buttonr .tu3 {
+          width: 1.3rem;
+          height: 0.32rem; }
+        .lt_music .m_new .m_button .m_buttonr .tu4 {
+          width: 2.57rem;
+          height: 0.5rem; }
+
+.zky_music {
+  width: 100%;
+  height: 1.76rem;
+  background: #dad8d8;
+  position: fixed;
+  bottom: 0; }
+  .zky_music .progress {
+    width: 100%;
+    height: 0.1rem;
+    position: relative; }
+    .zky_music .progress .inner {
+      height: 100%;
+      width: 5rem;
+      background: #f33c53;
+      border-top-right-radius: 0.2rem;
+      border-bottom-right-radius: 0.2rem; }
+  .zky_music .play {
+    width: 100%;
+    height: 1.66rem;
+    background: #16181f;
+    position: relative;
+    overflow: hidden;
+    padding-right: 0.24rem; }
+    .zky_music .play .special {
+      width: 2.8rem;
+      height: 2.8rem;
+      border-radius: 50%;
+      background: red;
+      position: absolute;
+      left: -0.65rem;
+      top: -0.57rem;
+      background: url("../img/zky_spe.png") no-repeat center center;
+      background-size: 2.88rem 1.78rem; }
+    .zky_music .play .song {
+      width: 3.3rem;
+      height: 1.66rem;
+      position: absolute;
+      left: 2.15rem;
+      top: 0;
+      padding: 0.4rem 0 0 0.3rem; }
+      .zky_music .play .song h1 {
+        color: #fff;
+        font-size: 0.44rem; }
+      .zky_music .play .song h3 {
+        color: #575f6a;
+        font-size: 0.3rem; }
+    .zky_music .play .button {
+      width: 2.36rem;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 0.5rem 0.4rem 0 0; }
+      .zky_music .play .button .prev {
+        width: 0.3rem;
+        height: 0.91rem;
+        background: url("../img/zky_prev.png") no-repeat left center;
+        background-size: 0.3rem 0.29rem;
+        float: left; }
+      .zky_music .play .button .playbtn {
+        width: 1.34rem;
+        height: 0.91rem;
+        background: url("../img/playbtn.png") no-repeat center center;
+        background-size: 0.93rem 0.91rem;
+        float: left; }
+      .zky_music .play .button .next {
+        width: 0.3rem;
+        height: 0.91rem;
+        background: url("../img/zky_next.png") no-repeat left center;
+        background-size: 0.3rem 0.29rem;
+        float: left; }

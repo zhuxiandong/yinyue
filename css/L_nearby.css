@@ -1,0 +1,240 @@
+@charset "UTF-8";
+.L_nav .Q_navbox .Q_left {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+
+.L_nav .Q_navbox .Q_title {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.L_nav {
+  width: 100%;
+  height: 0.88rem;
+  background: url(../images/Q_1.png) no-repeat;
+  background-size: cover; }
+  .L_nav .Q_navbox {
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.24rem;
+    position: relative; }
+    .L_nav .Q_navbox .Q_left {
+      width: 1.03rem;
+      height: 0.56rem;
+      background: url(../images/q-15.png);
+      background-size: 1.02rem 0.56rem;
+      z-index: 100; }
+    .L_nav .Q_navbox .Q_title h1 {
+      text-align: center;
+      font-size: 0.30rem;
+      margin-top: 0.12rem;
+      color: #fff; }
+    .L_nav .Q_navbox .Q_title h2 {
+      text-align: center;
+      font-size: 0.18rem;
+      color: #bfc0c2; }
+
+.L_near_title {
+  width: 100%;
+  height: 0.93rem;
+  padding: 0 0.24rem; }
+  .L_near_title .L_near_title_kuan {
+    width: 4.16rem;
+    height: 0.51rem;
+    margin: 0.35rem auto 0.32rem;
+    background: url("../images/L_near_01_03.png") no-repeat center center;
+    background-size: 4.15rem 0.50rem;
+    font-family: "苹方";
+    font-size: 0.24rem;
+    cursor: pointer; }
+    .L_near_title .L_near_title_kuan .L_near_title_con1 {
+      width: 45.19231%;
+      height: 0.42rem;
+      margin-left: 0.1rem;
+      margin-top: 0.05rem;
+      float: left;
+      line-height: 0.42rem; }
+    .L_near_title .L_near_title_kuan .L_near_title_con2 {
+      width: 45.19231%;
+      height: 0.42rem;
+      margin-right: 0.1rem;
+      margin-top: 0.05rem;
+      float: right;
+      line-height: 0.42rem; }
+    .L_near_title .L_near_title_kuan .L_near_title_icon1 {
+      display: block;
+      width: 0.24rem;
+      height: 0.26rem;
+      background: url("../images/L_near_03_06.png") no-repeat center center;
+      background-size: 0.24rem 0.26rem;
+      float: left;
+      margin: 0.08rem 0.02rem 0 0.41rem; }
+    .L_near_title .L_near_title_kuan .L_near_title_icon2 {
+      display: block;
+      width: 0.32rem;
+      height: 0.26rem;
+      background: url("../images/L_near_04_06.png") no-repeat center center;
+      background-size: 0.32rem 0.26rem;
+      float: left;
+      margin: 0.08rem 0.02rem 0 0.41rem; }
+    .L_near_title .L_near_title_kuan .L_near_title_con_active {
+      background: url("../images/L_near_02.png") no-repeat center center;
+      background-size: contain;
+      color: #fff; }
+
+a {
+  display: block; }
+
+.L_near_list {
+  width: 93.6%;
+  height: 1.54rem;
+  margin: 0 auto;
+  margin-bottom: 0.1rem;
+  border-radius: 0.05rem;
+  overflow: hidden;
+  position: relative;
+  font-family: "苹方"; }
+  .L_near_list .L_near_list_img {
+    height: 1.53rem;
+    overflow: hidden; }
+    .L_near_list .L_near_list_img img {
+      width: 26.66667%;
+      min-height: 1.53rem; }
+  .L_near_list .near_list_con {
+    width: 72.13333%;
+    height: 1.53rem;
+    border-radius: 0.05rem;
+    position: absolute;
+    left: 23.2%;
+    top: 0;
+    background: #fff;
+    padding: 0.18rem 0.18rem 0.21rem 0.13rem;
+    line-height: 1em; }
+    .L_near_list .near_list_con .near_list_con_title {
+      font-size: 0.26rem;
+      color: #000;
+      float: left; }
+    .L_near_list .near_list_con .near_list_con_star {
+      margin-left: 1.33333%; }
+      .L_near_list .near_list_con .near_list_con_star span {
+        display: block;
+        width: 0.16rem;
+        height: 0.16rem;
+        float: left;
+        margin-left: 0.4%;
+        margin-top: 0.1rem;
+        background: url("../images/L_near_list_star_11.jpg") no-repeat center center;
+        background-size: 0.16rem 0.16rem; }
+    .L_near_list .near_list_con .near_list_con_adress {
+      height: 0.21rem;
+      float: right;
+      font-size: 0.18rem;
+      color: #8f9296;
+      line-height: 0.21rem;
+      margin-top: 0.05rem; }
+      .L_near_list .near_list_con .near_list_con_adress span {
+        display: block;
+        width: 0.19rem;
+        height: 0.21rem;
+        background: url("../images/L_near_list_adress_10.jpg") no-repeat left center;
+        background-size: 0.17rem 0.21rem;
+        float: left; }
+      .L_near_list .near_list_con .near_list_con_adress div {
+        float: left; }
+    .L_near_list .near_list_con .L_near_list_con_scrp {
+      width: 100%;
+      max-height: 0.62rem;
+      font-size: 0.18rem;
+      color: #757779;
+      overflow: hidden;
+      margin-bottom: 0.05rem; }
+      .L_near_list .near_list_con .L_near_list_con_scrp span {
+        display: block;
+        float: left; }
+      .L_near_list .near_list_con .L_near_list_con_scrp div {
+        float: left; }
+    .L_near_list .near_list_con .L_near_list_con_time {
+      width: 1.6rem;
+      height: 0.25rem;
+      float: left;
+      font-size: 0.18rem;
+      line-height: 0.25rem; }
+      .L_near_list .near_list_con .L_near_list_con_time span {
+        display: block;
+        width: 0.25rem;
+        height: 0.25rem;
+        background: url("../images/L_near_list_time_14.jpg") no-repeat center center;
+        background-size: 0.18rem 0.18rem;
+        float: left;
+        margin-right: 0.05rem; }
+        .L_near_list .near_list_con .L_near_list_con_time span div {
+          float: left; }
+    .L_near_list .near_list_con .L_near_list_con_sex {
+      height: 0.25rem;
+      float: left;
+      overflow: hidden;
+      font-size: 0.18rem;
+      color: #757779;
+      line-height: 0.25rem; }
+      .L_near_list .near_list_con .L_near_list_con_sex span {
+        display: block;
+        width: 0.22rem;
+        height: 0.25rem;
+        background: url("../images/L_near_list_sex_14.jpg") no-repeat center center;
+        background-size: 0.21rem 0.21rem;
+        margin: 0rem 0.07rem 0 0.25rem;
+        float: left; }
+      .L_near_list .near_list_con .L_near_list_con_sex div {
+        float: left; }
+    .L_near_list .near_list_con .L_near_list_con_year {
+      height: 0.25rem;
+      line-height: 0.25rem; }
+      .L_near_list .near_list_con .L_near_list_con_year span {
+        background: url("../images/L_near_list_year_14.jpg") no-repeat center center;
+        background-size: 0.21rem 0.21rem; }
+      .L_near_list .near_list_con .L_near_list_con_year div {
+        float: left; }
+    .L_near_list .near_list_con .L_near_list_con_xingzuo {
+      height: 0.25rem;
+      line-height: 0.25rem; }
+      .L_near_list .near_list_con .L_near_list_con_xingzuo span {
+        background: url("../images/L_near_list_xingzuo_17.jpg") no-repeat center center;
+        background-size: 0.21rem 0.21rem; }
+      .L_near_list .near_list_con .L_near_list_con_xingzuo div {
+        float: left; }
+    .L_near_list .near_list_con .L_near_list_con_zhobo {
+      height: 0.25rem;
+      line-height: 0.25rem;
+      float: right;
+      font-size: 0.18rem;
+      color: #f33c53; }
+      .L_near_list .near_list_con .L_near_list_con_zhobo span {
+        display: block;
+        width: 0.25rem;
+        height: 0.25rem;
+        background: url("../images/L_near_list_11_07.png") no-repeat center center;
+        background-size: 0.25rem 0.21rem;
+        float: left; }
+      .L_near_list .near_list_con .L_near_list_con_zhobo div {
+        float: left; }
+    .L_near_list .near_list_con .L_near_list_con_guangao {
+      width: 100%;
+      max-height: 0.62rem;
+      font-size: 0.18rem;
+      overflow: hidden;
+      line-height: 1.0em;
+      margin-bottom: 0.05rem; }
+      .L_near_list .near_list_con .L_near_list_con_guangao span {
+        display: block;
+        height: 0.23rem;
+        border: 1px solid #f33c53;
+        border-radius: 0.05rem;
+        float: left;
+        color: #f33c53; }
+      .L_near_list .near_list_con .L_near_list_con_guangao div {
+        float: left; }

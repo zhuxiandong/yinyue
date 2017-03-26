@@ -1,0 +1,335 @@
+.zky_container {
+  width: 100%;
+  background: #353b44; }
+
+.zky_header {
+  width: 100%;
+  height: 1.34rem;
+  background: url("../img/zky_ser_bg.png") no-repeat center center;
+  background-size: 7.5rem 1.34rem;
+  position: relative;
+  margin-bottom: 0.2rem; }
+  .zky_header .left {
+    width: 0.35rem;
+    height: 0.38rem;
+    background: url("../img/zky_sousuo.png") no-repeat center center;
+    background-size: 0.35rem 0.38rem;
+    position: absolute;
+    left: 8.53%;
+    top: 0.55rem; }
+  .zky_header input {
+    position: absolute;
+    left: 14%;
+    top: 0.55rem;
+    background: transparent;
+    color: #fff;
+    font-size: 0.36rem;
+    line-height: 0.38rem; }
+  .zky_header .right {
+    width: 0.36rem;
+    height: 0.34rem;
+    position: absolute;
+    top: 0.55rem;
+    right: 1.4rem;
+    background: url("../img/zky_cha.png") no-repeat center center;
+    background-size: 0.36rem 0.34rem; }
+  .zky_header span {
+    position: absolute;
+    top: 0.55rem;
+    right: 0.24rem;
+    color: #d2d6dd;
+    font-size: 0.3rem; }
+
+.zky_context {
+  width: 100%;
+  padding: 0 0.15rem; }
+  .zky_context .context {
+    height: 1.03rem;
+    background: url("../img/zky_2_line.png") no-repeat top center;
+    background-size: 7.09rem 0.07rem; }
+    .zky_context .context .text {
+      padding-left: 0.09rem;
+      height: 100%;
+      position: relative;
+      line-height: 1.03rem; }
+      .zky_context .context .text span {
+        color: #fff;
+        font-size: 0.24rem;
+        margin-left: 0.08rem; }
+      .zky_context .context .text .tit {
+        width: 0.05rem;
+        height: 0.05rem;
+        border-radius: 50%;
+        background: #2ce7fd;
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto 0; }
+      .zky_context .context .text i {
+        position: absolute;
+        right: 0;
+        font-style: normal;
+        font-size: 0.6rem;
+        color: #fb223e; }
+
+.zky_result {
+  padding: 0 0.37rem; }
+  .zky_result .title {
+    height: 0.92rem; }
+    .zky_result .title .left {
+      float: left;
+      width: 0.72rem;
+      height: 100%;
+      background: url("../img/zky_2_jianshi.png") no-repeat left top;
+      background-size: 0.6rem 0.62rem; }
+    .zky_result .title .right {
+      float: left;
+      width: 6rem;
+      height: 0.62rem; }
+      .zky_result .title .right .tits {
+        line-height: 0.3rem;
+        position: relative; }
+        .zky_result .title .right .tits span {
+          display: inline-block;
+          color: #fff;
+          font-size: 0.24rem; }
+        .zky_result .title .right .tits .dian1 {
+          width: 0.05rem;
+          height: 0.05rem;
+          border-radius: 50%;
+          background: #29c2ee;
+          position: absolute;
+          left: 1.24rem;
+          top: 0.14rem; }
+        .zky_result .title .right .tits .dian2 {
+          width: 0.05rem;
+          height: 0.05rem;
+          border-radius: 50%;
+          background: #fa2b46;
+          position: absolute;
+          left: 1.4rem;
+          top: 0.14rem; }
+      .zky_result .title .right .tit1 {
+        color: #747c87;
+        font-size: 0.2rem;
+        line-height: 0.3rem; }
+
+.list {
+  width: 100%;
+  height: 3.54rem;
+  background: #fff;
+  border-radius: 0.1rem;
+  padding: 0.28rem 0.18rem 0.12rem 0.12rem;
+  position: relative; }
+  .list .hot {
+    width: 0.65rem;
+    height: 0.94rem;
+    position: absolute;
+    right: 0.18rem;
+    top: -0.18rem;
+    background: url("../img/zky_2_hot.png") no-repeat center center;
+    background-size: 0.68rem 0.88rem; }
+  .list .ico {
+    width: 2.55rem;
+    height: 3.14rem;
+    border-radius: 0.1rem;
+    background: url("../img/zky_2_picture.png") no-repeat center center;
+    background-size: 2.68rem 3.78rem;
+    float: left; }
+  .list .right {
+    width: 3.64rem;
+    height: 100%;
+    float: right; }
+    .list .right .top {
+      width: 100%;
+      height: 1.05rem;
+      background: url("../img/zky_2_line1.png") no-repeat left bottom;
+      background-size: 3.67rem 0.06rem; }
+      .list .right .top h1 {
+        color: #353b44;
+        font-size: 0.52rem;
+        line-height: 0.5rem; }
+      .list .right .top h3 {
+        color: #7d7f82;
+        font-size: 0.52rem;
+        line-height: 0.5rem; }
+  .list .music {
+    width: 100%;
+    height: 0.58rem;
+    padding-top: 0.24rem; }
+    .list .music .icon1 {
+      width: 1.5rem;
+      height: 100%;
+      padding-left: 0.43rem;
+      background: url("../img/zky_2_icon1.png") no-repeat bottom left;
+      background-size: 0.34rem 0.33rem;
+      color: #7d7f82;
+      font-size: 0.3rem;
+      float: left; }
+    .list .music .icon2 {
+      width: 1.5rem;
+      height: 100%;
+      padding-left: 0.43rem;
+      background: url("../img/zky_2_icon2.png") no-repeat bottom left;
+      background-size: 0.32rem 0.32rem;
+      color: #7d7f82;
+      font-size: 0.3rem;
+      float: left; }
+  .list .honour {
+    height: 0.36rem; }
+    .list .honour li {
+      width: 0.24rem;
+      height: 0.36rem;
+      float: left;
+      background: url("../img/zky_icon.png") no-repeat left bottom;
+      background-size: 0.16rem 0.16rem; }
+    .list .honour .active {
+      background: url("../img/zky_2_icon3.png") no-repeat left bottom;
+      background-size: 0.16rem 0.16rem; }
+    .list .honour .word {
+      color: #fd9207;
+      font-size: 0.36rem;
+      background: none;
+      font-style: italic;
+      margin-left: 0.15rem; }
+  .list .singer {
+    width: 100%;
+    height: 0.24rem;
+    position: relative;
+    margin-top: 0.2rem;
+    padding-left: 0.1rem; }
+    .list .singer .left {
+      float: left;
+      width: 0.05rem;
+      height: 0.05rem;
+      background: #fd9207;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0; }
+    .list .singer .right {
+      float: left;
+      height: 100%;
+      color: #7d7f82;
+      font-size: 0.24rem;
+      line-height: 0.24rem;
+      padding-left: 0.1rem; }
+  .list .btn {
+    width: 100%;
+    height: 0.7rem;
+    background: url("../img/zky_2_btn.png") no-repeat bottom left;
+    background-size: 1.42rem 0.44rem; }
+
+.common {
+  height: 0.92rem;
+  margin-top: 0.4rem; }
+  .common .left {
+    float: left;
+    width: 0.72rem;
+    height: 100%;
+    background: url("../img/zky_2_jianshi2.png") no-repeat left top;
+    background-size: 0.6rem 0.62rem; }
+  .common .right {
+    float: left;
+    width: 6rem;
+    height: 0.62rem; }
+    .common .right .lefttit {
+      width: 4.7rem;
+      height: 100%;
+      float: left; }
+      .common .right .lefttit .tits {
+        line-height: 0.3rem;
+        position: relative; }
+        .common .right .lefttit .tits span {
+          display: inline-block;
+          color: #fff;
+          font-size: 0.24rem; }
+        .common .right .lefttit .tits .dian1 {
+          width: 0.05rem;
+          height: 0.05rem;
+          border-radius: 50%;
+          background: #29c2ee;
+          position: absolute;
+          left: 1.24rem;
+          top: 0.14rem; }
+        .common .right .lefttit .tits .dian2 {
+          width: 0.05rem;
+          height: 0.05rem;
+          border-radius: 50%;
+          background: #fa2b46;
+          position: absolute;
+          left: 1.4rem;
+          top: 0.14rem; }
+      .common .right .lefttit .tit1 {
+        color: #747c87;
+        font-size: 0.2rem;
+        line-height: 0.3rem; }
+    .common .right .righttit {
+      float: right;
+      width: 1rem;
+      height: 100%; }
+      .common .right .righttit .num {
+        width: 100%;
+        height: 100%;
+        color: #fb223e;
+        font-size: 0.6rem; }
+
+.zky_playlist {
+  width: 100%;
+  height: 5rem; }
+  .zky_playlist li {
+    width: 100%;
+    height: 1.43rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    margin-bottom: 0.1rem;
+    padding: 0.18rem 0; }
+    .zky_playlist li .leftimg {
+      width: 1.47rem;
+      height: 1.12rem;
+      float: left;
+      border-right: 2px solid #e5e4e4;
+      background: url("../img/zky_2_1.png") no-repeat center center;
+      background-size: 0.99rem 0.92rem; }
+    .zky_playlist li .leftimg1 {
+      width: 1.47rem;
+      height: 1.12rem;
+      float: left;
+      border-right: 2px solid #e5e4e4;
+      background: url("../img/zky_2_2.png") no-repeat center center;
+      background-size: 0.96rem 0.83rem; }
+    .zky_playlist li .leftimg2 {
+      width: 1.47rem;
+      height: 1.12rem;
+      float: left;
+      border-right: 2px solid #e5e4e4;
+      background: url("../img/zky_2_3.png") no-repeat center center;
+      background-size: 0.95rem 1.02rem; }
+    .zky_playlist li .rightimg {
+      width: 5.1rem;
+      height: 100%;
+      padding: 0.24rem 0.18rem 0.1rem 0;
+      float: right; }
+      .zky_playlist li .rightimg p {
+        font-size: 0.36rem;
+        color: #353b44;
+        line-height: 0.36rem; }
+        .zky_playlist li .rightimg p span {
+          color: #fa425a; }
+      .zky_playlist li .rightimg h5 {
+        font-size: 0.22rem;
+        color: #676566;
+        text-align: right;
+        line-height: 0.22rem; }
+        .zky_playlist li .rightimg h5 span {
+          color: #fa425a; }
+      .zky_playlist li .rightimg .active {
+        font-size: 0.22rem;
+        color: #676566;
+        line-height: 0.22rem; }
+        .zky_playlist li .rightimg .active span {
+          color: #fa425a; }
+
+/*# sourceMappingURL=zky_search.css.map */

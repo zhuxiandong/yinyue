@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>QQ音乐</title>
+    <link rel="stylesheet" href="<?php echo CSS_PATH?>mycss/public.css"/>
+    <link rel="stylesheet" href="<?php echo CSS_PATH?>mycss/index.css"/>
+    <script src="<?php echo JS_PATH?>myjs/jquery.js"></script>
+    <script src="<?php echo JS_PATH?>myjs/extend.js"></script>
+    <script src="<?php echo JS_PATH?>myjs/index.js"></script>
+</head>
+<body>
+<div class="bgbox">
+    <div class="bannerbox">
+        <div class="bannertop">
+            <h1>新歌首发</h1>
+            <i class="left"></i>
+            <i class="right"></i>
+        </div>
+        <div class="bannertab">
+            <ul>
+                <li class="active">
+                    <a href="#">全部</a>
+                </li>
+                <?php foreach($types as $values): ?>
+                <li>
+                    <a href="#"><?php echo $values['cate_name']?></a>
+                </li>
+                <?php endforeach; ?>
+                <!--<li>-->
+                    <!--<a href="#">欧美</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#">韩国</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#">日本</a>-->
+                <!--</li>-->
+            </ul>
+            <div class="allbox">
+                <a href="#">
+                    全部
+                    <i></i>
+                </a>
+            </div>
+        </div>
+        <div class="lunbobox">
+            <ul class="activeul lunboul">
+                <li>
+                    <div class="tu">
+                        <img src="<?php echo IMG_PATH?>img/13.jpg" alt=""/>
+                        <a href="#"></a>
+                        <div></div>
+                    </div>
+                    <div class="font">
+                        <h3>多亮
+                            <div></div>
+                        </h3>
+                        <h6>多亮</h6>
+                    </div>
+                </li>
+                <li>
+                    <div class="tu">
+                        <img src="<?php echo IMG_PATH?>img/1.jpg" alt=""/>
+                        <a href="#"></a>
+                        <div></div>
+                    </div>
+                    <div class="font">
+                        <h3>アンコール
+                            <div></div>
+                        </h3>
+                        <h6>back number</h6>
+                    </div>
+                </li>
+                <li>
+                    <div class="tu">
+                        <img src="<?php echo IMG_PATH?>img/2.jpg" alt=""/>
+                        <a href="#"></a>
+                        <div></div>
+                    </div>
+                    <div class="font">
+                        <h3>不想上班
+                            <div></div>
+                        </h3>
+                        <h6>肖央</h6>
+                    </div>
+                </li>
+                <li>
+                    <div class="tu">
+                        <img src="<?php echo IMG_PATH?>img/3.jpg" alt=""/>
+                        <a href="#"></a>
+                        <div></div>
+                    </div>
+                    <div class="font">
+                        <h3>黑色翅膀
+                            <div></div>
+                        </h3>
+                        <h6>张恒远</h6>
+                    </div>
+                </li>
+            </ul>
+            <ul class="lunboul">
+                <li>
+                    <div class="tu">
+                        <img src="<?php echo IMG_PATH?>img/14.jpg" alt=""/>
+                        <a href="#"></a>
+                        <div></div>
+                    </div>
+                    <div class="font">
+                        <h3>寂寞烟火
+                            <div></div>
+                        </h3>
+                        <h6>朱婧汐</h6>
+                    </div>
+                </li>
+                <li>
+                    <div class="tu">
+                        <img src="<?php echo IMG_PATH?>img/15.jpg" alt=""/>
+                        <a href="#"></a>
+                        <div></div>
+                    </div>
+                    <div class="font">
+                        <h3>僕以外の誰か(Type-D)
+                            <div></div>
+                        </h3>
+                        <h6>NMB48</h6>
+                    </div>
+                </li>
+                <li>
+                    <div class="tu">
+                        <img src="<?php echo IMG_PATH?>img/16.jpg" alt=""/>
+                        <a href="#"></a>
+                        <div></div>
+                    </div>
+                    <div class="font">
+                        <h3>BeBe
+                            <div></div>
+                        </h3>
+                        <h6>서인국</h6>
+                    </div>
+                </li>
+                <li>
+                    <div class="tu">
+                        <img src="<?php echo IMG_PATH?>img/17.jpg" alt=""/>
+                        <a href="#"></a>
+                        <div></div>
+                    </div>
+                    <div class="font">
+                        <h3>爱在当下
+                            <div></div>
+                        </h3>
+                        <h6>邰正宵</h6>
+                    </div>
+                </li>
+            </ul>
+            <ul class="lunboul">
+                <li>
+                    <div class="tu">
+                        <img src="<?php echo IMG_PATH?>img/18.jpg" alt=""/>
+                        <a href="#"></a>
+                        <div></div>
+                    </div>
+                    <div class="font">
+                        <h3>낭만닥터 김사부 OST Part.4
+                            <div></div>
+                        </h3>
+                        <h6>전인권</h6>
+                    </div>
+                </li>
+                <li>
+                    <div class="tu">
+                        <img src="<?php echo IMG_PATH?>img/19.jpg" alt=""/>
+                        <a href="#"></a>
+                        <div></div>
+                    </div>
+                    <div class="font">
+                        <h3>힙합의 민족S2 Semi Final 1
+                            <div></div>
+                        </h3>
+                        <h6>韩国群星</h6>
+                    </div>
+                </li>
+                <li>
+                    <div class="tu">
+                        <img src="<?php echo IMG_PATH?>img/20.jpg" alt=""/>
+                        <a href="#"></a>
+                        <div></div>
+                    </div>
+                    <div class="font">
+                        <h3>Vente Pa' Ca
+                            <div></div>
+                        </h3>
+                        <h6>Ricky Martin</h6>
+                    </div>
+                </li>
+                <li>
+                    <div class="tu">
+                        <img src="<?php echo IMG_PATH?>img/21.jpg" alt=""/>
+                        <a href="#"></a>
+                        <div></div>
+                    </div>
+                    <div class="font">
+                        <h3>White Friday (CM9)
+                            <div></div>
+                        </h3>
+                        <h6>Yo Gotti</h6>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="btnbox">
+            <ul>
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    <div class="leftbtnbox">
+        <div class="leftbtn">
+            <div></div>
+        </div>
+    </div>
+    <div class="rightbtnbox">
+        <div class="rightbtn">
+            <div></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

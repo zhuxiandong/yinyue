@@ -1,0 +1,303 @@
+body {
+  background: #f8f8f8; }
+
+.zh_container {
+  width: 7.5rem;
+  height: 1.01rem;
+  background: url("../img/zh_head.png") no-repeat center center;
+  background-size: cover;
+  margin: 0 auto; }
+  .zh_container .zh_back {
+    padding: 0 0.35rem;
+    height: 100%;
+    position: relative; }
+    .zh_container .zh_back .zh_backbtn {
+      z-index: 100;
+      width: 1.04rem;
+      height: 0.58rem;
+      background: url("../img/zh_back.png") no-repeat center center;
+      background-size: cover;
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0; }
+    .zh_container .zh_back .zh_ch {
+      font-size: 0.3rem;
+      color: #fff;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      display: inline-block;
+      text-align: center;
+      top: 0.24rem; }
+    .zh_container .zh_back .zh_en {
+      font-size: 0.18rem;
+      color: #fff;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      text-align: center;
+      display: inline-block;
+      bottom: 0.1rem; }
+
+.zh_content {
+  padding: 0 0.35rem;
+  height: 2.6rem;
+  width: 7.5rem;
+  position: relative;
+  margin: 0 auto; }
+  .zh_content .zh_circle {
+    width: 0.56rem;
+    height: 0.56rem;
+    background: #fff;
+    overflow: hidden;
+    position: absolute;
+    top: 0.38rem;
+    border-radius: 50%; }
+    .zh_content .zh_circle img {
+      width: 100%;
+      height: 100%; }
+  .zh_content .zh_talk {
+    width: 3.29rem;
+    height: 0.67rem;
+    background: #323840;
+    border-radius: 0.4rem;
+    position: absolute;
+    top: 0.35rem;
+    left: 1.05rem;
+    line-height: 0.67rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.24rem; }
+  .zh_content .zh_response {
+    width: 3.57rem;
+    height: 0.67rem;
+    background: #fff;
+    border-radius: 0.4rem;
+    position: absolute;
+    top: 1.25rem;
+    right: 0.35rem;
+    line-height: 0.67rem;
+    text-align: center;
+    color: #363c44;
+    font-size: 0.24rem; }
+    .zh_content .zh_response .zh_time {
+      display: inline-block;
+      font-size: 0.2rem;
+      color: #b2b2b2;
+      position: absolute;
+      right: 0.35rem;
+      top: 0.6rem; }
+
+.zh_dateline {
+  width: 7rem;
+  height: 0.21rem;
+  background: url("../img/zh_dateline.png") no-repeat center center;
+  background-size: cover;
+  margin: 0 auto; }
+
+.zh_contenttwo {
+  padding: 0 0.35rem;
+  height: 8.4rem;
+  width: 7.5rem;
+  position: relative;
+  margin: 0 auto; }
+  .zh_contenttwo .zh_circle {
+    width: 0.56rem;
+    height: 0.56rem;
+    background: #fff;
+    overflow: hidden;
+    position: absolute;
+    top: 0.38rem;
+    border-radius: 50%; }
+    .zh_contenttwo .zh_circle img {
+      width: 100%;
+      height: 100%; }
+  .zh_contenttwo .zh_yuyin {
+    width: 2rem;
+    height: 0.67rem;
+    background: url("../img/zh_yuyin.png") no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 0.35rem;
+    left: 1.05rem; }
+  .zh_contenttwo .zh_longtime {
+    position: absolute;
+    color: #999696;
+    font-size: 0.3rem;
+    top: 0.45rem;
+    left: 3.2rem; }
+  .zh_contenttwo .zh_response {
+    width: 2.03rem;
+    height: 1.79rem;
+    background: url("../img/zh_dunk.png") no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    right: 0.35rem;
+    top: 0.64rem; }
+    .zh_contenttwo .zh_response .zh_time {
+      display: inline-block;
+      font-size: 0.2rem;
+      color: #b2b2b2;
+      position: absolute;
+      right: 0.35rem;
+      top: 1.8rem; }
+  .zh_contenttwo .zh_tan {
+    width: 3.35rem;
+    height: 0.67rem;
+    background: url("../img/zh_tan.png") no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 2.5rem;
+    left: 1.05rem;
+    line-height: 0.67rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.24rem; }
+  .zh_contenttwo .zh_shenglve {
+    width: 1.68rem;
+    height: 0.67rem;
+    background: url("../img/zh_shenglve.png") no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    right: 0.35rem;
+    top: 3.47rem; }
+  .zh_contenttwo .zh_bigtu {
+    width: 3.48rem;
+    height: 2.17rem;
+    background: url("../img/zh_bigtu.png") no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    right: 0.35rem;
+    top: 4.4rem; }
+    .zh_contenttwo .zh_bigtu .zh_time {
+      display: inline-block;
+      font-size: 0.2rem;
+      color: #b2b2b2;
+      position: absolute;
+      right: 0.35rem;
+      top: 2.2rem; }
+  .zh_contenttwo .zh_talktime {
+    width: 2.7rem;
+    height: 0.67rem;
+    background: url("../img/zh_talking.png") no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 7.2rem;
+    left: 1.05rem;
+    line-height: 0.67rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.24rem; }
+
+.zh_footer {
+  width: 7.5rem;
+  height: 2.55rem;
+  background: #f33c53;
+  position: relative; }
+  .zh_footer .zh_say {
+    width: 7rem;
+    height: 0.88rem;
+    border-radius: 0.6rem;
+    background: #fff;
+    margin: 0 auto;
+    position: absolute;
+    top: 0.34rem;
+    left: 0;
+    right: 0; }
+    .zh_footer .zh_say img {
+      width: 0.33rem;
+      height: 0.04rem;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      left: 0.34rem; }
+    .zh_footer .zh_say input {
+      background: transparent;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0.75rem;
+      color: #919293;
+      font-size: 0.26rem; }
+  .zh_footer ul {
+    width: 7rem;
+    height: 1.14rem;
+    background: url("../img/zh_pinkback.png") no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+    .zh_footer ul li {
+      width: 20%;
+      height: 100%;
+      float: left;
+      position: relative; }
+      .zh_footer ul li .one {
+        background: url("../img/zh_huatong.png") no-repeat center center;
+        background-size: contain;
+        display: inline-block;
+        width: 0.62rem;
+        height: 0.63rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto auto; }
+      .zh_footer ul li .two {
+        background: url("../img/zh_video.png") no-repeat center center;
+        background-size: contain;
+        display: inline-block;
+        width: 0.77rem;
+        height: 0.63rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto auto; }
+      .zh_footer ul li .three {
+        background: url("../img/zh_picture.png") no-repeat center center;
+        background-size: contain;
+        display: inline-block;
+        width: 0.75rem;
+        height: 0.63rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto auto; }
+      .zh_footer ul li .four {
+        background: url("../img/zh_biaoqing.png") no-repeat center center;
+        background-size: contain;
+        display: inline-block;
+        width: 0.65rem;
+        height: 0.63rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto auto; }
+      .zh_footer ul li .five {
+        background: url("../img/zh_add.png") no-repeat center center;
+        background-size: contain;
+        display: inline-block;
+        width: 0.67rem;
+        height: 0.63rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto auto; }
+
+/*# sourceMappingURL=zh_advice.css.map */

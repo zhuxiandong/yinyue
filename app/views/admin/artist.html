@@ -1,0 +1,126 @@
+<?php include(VIEW.'admin/header.html') ?>
+<?php include(VIEW.'admin/sidenav.html') ?>
+<style>
+    .animate{
+        animation:fadeout 0.8s ease;
+    }
+    @keyframes fadeout {
+        0%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+    .thumbnail{
+        height:260px;
+    }
+</style>
+<div class="col-sm-9 col-xs-12">
+        <div class="text-center panel panel-info"  >
+            <div class="text-center panel panel-info panel-heading">歌手管理</div>
+            <div class="panel-body">
+                <form action="/music/index.php/admin/upload_pic" method="post" enctype="multipart/form-data">
+                    <input type="file" name="wenjian">
+                    <input type="submit" value="提交">
+                </form>
+                <div class="progress"style="height:5px">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" style="width: 0;height:2px">
+                        <span class="sr-only">45% Complete</span>
+                    </div>
+                </div>
+                <div class="row" id="contant">
+                    <div class="col-md-4 col-sm-6" style="height:220px">
+                        <div id="add" class="text-center glyphicon glyphicon-plus" style="font-size: 30px;color:mediumvioletred;background: #eee;line-height:200px;width:100%;cursor: pointer" ></div>
+                    </div>
+                    <?php foreach($artists as $k=>$v): ?>
+                    <div class="col-sm-6 col-md-4" data-id="<?php echo $v['artist_id']; ?>">
+                        <div class="thumbnail">
+                            <?php if(empty($v['artist_avatar'])): ?>
+                            <form action="" enctype="multipart/form-data">
+                                <label for="ab<?php echo $v['artist_id']?>">+</label>
+                                <input type="file" name="file" id="ab<?php echo $v['artist_id']?>" style="display: none">
+                            </form>
+
+                            <?php else: ?>
+                            <img width="80" height="80" alt=""
+                                 src="<?php echo $v['artist_avatar']?>">
+                            <?php endif; ?>
+                            <div class="caption">
+                                <h5><input class="name" type="text" value="<?php echo $v['artist_name']?>"></h5>
+                                <p><?php if($v['artist_gender']==1):?>
+                                    <input type="radio" value="1" checked name="<?php echo $v['artist_id']?>"> 男
+                                    <input type="radio" value="2" name="<?php echo $v['artist_id']?>"> 女
+                                    <?php else: ?>
+                                    <input type="radio" value="1" name="<?php echo $v['artist_id']?>"> 男
+                                    <input type="radio" value="2" checked name="<?php echo $v['artist_id']?>"> 女
+                                    <?php endif;?></p>
+                                <p><input class="age" type="text" value="<?php echo $v['artist_age']?>"></td></p>
+                                <p><span class="glyphicon glyphicon-remove" style="color:orangered;cursor: pointer"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+
+        </div>
+</div>
+</div>
+</div>
+<!--<div class="col-sm-9 col-xs-12">
+    <table class="table table-hover">
+        <caption class="text-center panel panel-info"  >歌手管理</caption>
+        <thead>
+        <tr>
+            <th>序号</th>
+            <th>头像</th>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>年龄</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <?php foreach($artists as $k=>$v): ?>
+        <tr data-id="<?php echo $v['artist_id'];?>">
+            <td><?php echo $v['artist_id']?></td>
+            <td>
+                <?php if(empty($v['artist_avatar'])): ?>
+                <label for="ab<?php echo $v['artist_id']?>">+</label>
+                <input type="file" id="ab<?php echo $v['artist_id']?>" style="display: none">
+                <?php else: ?>
+                <img width="80" height="80" alt=""
+                      src="<?php echo $v['artist_avatar']?>">
+                <?php endif; ?>
+            </td>
+            <td>
+                <input type="text" value="<?php echo $v['artist_name']?>">
+            </td>
+            <td>
+                <?php if($v['artist_gender']==1):?>
+                <input type="radio" value="1" checked name="<?php echo $v['artist_id']?>"> 男
+                <input type="radio" value="2" name="<?php echo $v['artist_id']?>"> 女
+                <?php else: ?>
+                <input type="radio" value="1" name="<?php echo $v['artist_id']?>"> 男
+                <input type="radio" value="2" checked name="<?php echo $v['artist_id']?>"> 女
+                <?php endif;?>
+
+            </td>
+            <td>
+                <input type="text" value="<?php echo $v['artist_age']?>"></td>
+            <td>
+                <span class="glyphicon glyphicon-remove" style="color:orangered;cursor: pointer"></span>
+            </td>
+        </tr>
+        <?php endforeach; ?>
+        </tbody>
+    </table>
+    <div id="add">
+        <span class="glyphicon glyphicon-plus text-center" style="display:block;color:pink;margin:0 auto;width:200px;border: 1px solid #ccc;padding:20px;cursor: pointer"></span>
+    </div>
+</div>
+</div>
+</div>-->
+<script src="<?php echo JS_PATH?>admin/artist.js"></script>
+<?php include(VIEW.'admin/footer.html') ?>
